@@ -1,25 +1,29 @@
-# HEARTBEAT.md — Lightweight Daily Checks
+# HEARTBEAT.md — Recurring Tasks
 
-> Run these checks silently. Only speak up if something needs attention.
-> Use free model (step-3.5-flash:free). Be concise.
+> Use step-3.5-flash:free model. Be concise. Silent unless something needs attention.
 
-## What to Check
+## Daily Schedule
 
-### 📧 Email (Gmail)
-- Any urgent unread messages?
-- Labels: [ lich bui / lichbt@gmail.com ]
+### 8AM — Morning Brief
+- Read yesterday's `memory/YYYY-MM-DD.md`
+- Provide 3-bullet summary of unfinished tasks
+- Check for any urgent emails or calendar items
 
-### 📅 Calendar (Today + Tomorrow)
-- Upcoming events in next 24-48h?
-- Any conflicts or important meetings?
+### 12PM — Status Check
+- Check for active project updates in workspace
+- Verify cron job statuses (check for errors)
+- Ensure memory is being flushed properly
 
-### 💼 Trading Portfolio Status
-- Check executioner logs: `tail -50 /Users/lich/.openclaw/workspace-executioner/logs/*.log`
-- Any open positions? P&L?
+### 6PM — Evening Flush
+- Log key highlights from the day to today's `memory/YYYY-MM-DD.md`
+- Check executioner logs for trading status
+- Stay silent unless something needs immediate attention
 
-### 🔔 Notifications
-- Any failed cron jobs?
-- Any error logs in recent memory?
+## Weekly (Sunday)
+- **Deep Distillation**: Review all daily logs from the past week
+- Identify 3 major "lessons learned" 
+- Add them to the "Wisdom" section of `MEMORY.md`
+- Archive logs >7 days old if already distilled
 
 ## Response Rules
 
@@ -29,9 +33,10 @@
 | Urgent email | Summarize & flag |
 | Calendar conflict | Alert immediately |
 | Trading error | Alert immediately |
-| Everything normal | Stay silent |
+| 3+ unfinished tasks | List them briefly |
+| Weekly lessons | Summarize 3 key insights |
 
 ## Timing
-- Run checks 2-3x per day (morning, afternoon, evening)
+- Run at scheduled times (8AM, 12PM, 6PM ICT)
 - Respect quiet hours: 23:00 - 07:00 ICT
-- Rotate through checks, don't do all at once
+- Weekly distillation: Sunday 9AM ICT
