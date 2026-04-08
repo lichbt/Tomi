@@ -1,0 +1,31 @@
+================================================================================
+BACKTEST REPORT: FRAMA
+================================================================================
+
+INSTRUMENT: timestamp
+PERIOD: 2023-01-02 00:00:00+00:00 to 2024-12-30 00:00:00+00:00 (521 trading days)
+
+--- OVERVIEW ---
+Initial Capital: $100,000.00
+Final Portfolio Value: $1,429,539,529,131,176,740,547,875,836,002,304.00
+Total Return: 1429539529131176801346470805504.00%
+Annualized Return: 4151951517482024.00%
+
+--- RISK ADJUSTED METRICS ---
+Sharpe Ratio: 5.667
+Calmar Ratio: 919301972838519.250
+Max Drawdown: 4.52%
+
+--- TRADE STATISTICS ---
+Number of Trades: 118
+Win Rate: 57.63%
+Average Win: $46,674,167,631,283,747,145,878,863,872.00
+Average Loss: $-428,578,820,217,415,101,445,046,272.00
+Average Return per Trade: 0.06%
+Profit Factor: 148.110
+Average Trade Duration: 1.5 days
+
+--- SUMMARY ---
+Assessment: EXCELLENT: High risk-adjusted returns with manageable drawdown.
+
+================================================================================

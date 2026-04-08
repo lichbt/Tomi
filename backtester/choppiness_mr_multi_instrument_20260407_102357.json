@@ -1,0 +1,72 @@
+{
+  "strategy": "Choppiness Index Mean Reversion",
+  "timeframe": "H4",
+  "generated_at": "2026-04-07 10:23:57 UTC",
+  "results": {
+    "BTC_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0
+    },
+    "XAU_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0
+    },
+    "BCO_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0
+    },
+    "USD_TRY": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0
+    },
+    "NAS100_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0
+    },
+    "XAG_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0
+    }
+  },
+  "summary": {
+    "best_instrument": "N/A",
+    "worst_instrument": "N/A",
+    "avg_sharpe": 0.0,
+    "avg_win_rate": 0.0,
+    "total_trades": 0,
+    "passing_instruments": [],
+    "failing_instruments": [
+      "BTC_USD",
+      "XAU_USD",
+      "BCO_USD",
+      "USD_TRY",
+      "NAS100_USD",
+      "XAG_USD"
+    ]
+  },
+  "errors": []
+}

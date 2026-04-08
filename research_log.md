@@ -1,0 +1,1 @@
+/Users/lich/.openclaw/SHARED/research/research_log.md

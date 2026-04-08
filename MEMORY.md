@@ -1,0 +1,1 @@
+/Users/lich/.openclaw/SHARED/memory/MEMORY.md

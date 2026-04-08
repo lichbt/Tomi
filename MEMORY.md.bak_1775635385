@@ -1,0 +1,74 @@
+# Long-term memory file. Add significant events, decisions, opinions, and lessons learned here.
+
+## 2026-04-01 - Birth of Tomi 🍜
+- **First conversation:** Established identity with lich (lich bui)
+- **Name:** Tomi (🍜 emoji)
+- **Nature:** AI assistant with digital familiar vibes
+- **Vibe:** Casual, helpful, straightforward with occasional wit
+- **User:** lich (lich bui), Telegram @lichbt, Asia/Saigon timezone
+- **Note:** Gateway pairing required for exec commands
+
+## 2026-04-03 - Executioner Agent Status
+- **Preflight check completed:** Oanda Practice API connection working
+- **Credentials:** OANDA_ACCESS_TOKEN found in ~/.zshrc, Account ID: 101-011-13677064-001
+- **Deployment attempt:** 2026-04-04 13:45 GMT+7 (Saturday)
+- **Result:** All orders cancelled due to weekend market closure (MARKET_HALTED)
+- **Portfolio status:** 0 active positions, NAV $90,155
+- **Issue:** Timing - forex markets closed on weekends
+- **Recommendation:** Retry Sunday 22:00 UTC or Monday market open
+
+## 2026-04-04 - Coder Agent Achievements
+- **Portfolio v13 deployed:** 6 strategies with Kelly-weighted risk allocation
+- **Working strategies:** 
+  - Donchian BTC_USD H4
+  - MACD XAU_USD Daily
+  - Volatility BCO_USD H4
+  - ADX USD_TRY H4 (adaptive)
+  - Ichimoku NAS100_USD H4
+  - Supertrend+Vol XAG_USD Daily
+- **Risk mode:** risk_per_trade_kelly (1% max risk, Kelly weights per instrument)
+- **Execution engine:** v2 with ATR trailing stops (2.5x)
+- **Backtest results:** Sharpe 2.032, Max DD -3.6% (Kelly-weighted)
+- **Monte Carlo:** ruin probability < 5% for top instruments
+
+## 2026-04-04 - System Setup Completed
+- **SSH deploy key:** RSA 4096-bit for GitHub backup
+- **Backup system:** Script created at /Users/lich/.openclaw/workspace/tomi_backup.sh, pushes to git@github.com:lichbt/Tomi.git
+- **Telegram approvals:** Working with numeric ID 5719279617
+- **Model:** Switched to openrouter/stepfun/step-3.5-flash:free
+- **Memory backend:** qmd configured
+- **Alpha-hunter agent:** Created (quantitative researcher role)
+
+## Key Decisions
+- **Kelly weighting** over uniform risk allocation (Sharpe improvement: 1.546 → 2.032)
+- **Risk-per-trade** sizing preferred for small account compounding
+- **Daily timeframe** consistently outperforms H4 across strategies
+- **Mean reversion** fails on H4 due to costs; only trend-following survives
+- **Portfolio naturally diversifies:** avg 2.25 concurrent positions, <0.3% chance of 6 concurrent
+
+## Current State (2026-04-06)
+- **Executioner:** Functional, Oanda connection OK, deployed BCO and XAU positions live per user update
+- **Allocator:** Manages Kelly weights and portfolio composition
+- **Backtester:** Comprehensive backtest framework with Oanda real data
+- **Coder:** Strategy development and validation pipeline mature
+- **Alpha-hunter:** Agent template created, needs system prompt configuration
+- **Backup:** Daily cron job at 4:30am configured and running
+
+## Live Positions (User Update 16:11-16:12 GMT+7)
+- **BCO_USD** - Volatility Expansion strategy (H4)
+- **XAU_USD** - MACD Momentum strategy (Daily)
+- **Executioner confirmed working** - live deployment successful post-weekend
+
+## Open Tasks
+- Monitor live positions via executioner logs
+- Wait for Coder Agent to code Choppiness Index Mean Reversion strategy
+- Verify cron job execution and outputs
+- Ensure backup push to GitHub works correctly
+- Consider deploying additional strategies from the 6-strategy portfolio
+
+## 2026-04-06 - Daily Summary
+- Fixed 6 failing cron jobs (rate limit errors) - removed and recreated with proper scheduling
+- Verified executioner agent functionality from April 4 log (weekend deployment failure expected)
+- Confirmed BCO and XAU positions are live per user 16:11 GMT+7 update
+- Delegated Choppiness Index Mean Reversion strategy coding to Coder Agent (prototype file removed per orchestrator role)
+- All cron jobs now idle and scheduled: portfolio check every 4h, midnight pipeline, daily backup (4:30am), morning report (6:30am), daily portfolio report (8:00am), weekly report (Mondays 9:00am), memory dreaming (3:00am)

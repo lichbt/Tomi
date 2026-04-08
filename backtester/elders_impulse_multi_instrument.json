@@ -1,0 +1,79 @@
+{
+  "strategy": "Elder's Impulse System",
+  "timeframe": "H4",
+  "generated_at": "2026-04-07 10:52:01 UTC",
+  "results": {
+    "BTC_USD": {
+      "total_return": -41.0,
+      "annual_return": -37.44,
+      "sharpe": -0.988,
+      "win_rate": 45.9,
+      "trades": 348,
+      "max_dd": -48.51,
+      "bar_count": 1701
+    },
+    "XAU_USD": {
+      "total_return": 47.75,
+      "annual_return": 42.15,
+      "sharpe": 1.545,
+      "win_rate": 51.1,
+      "trades": 316,
+      "max_dd": -7.61,
+      "bar_count": 1678
+    },
+    "BCO_USD": {
+      "total_return": 10.32,
+      "annual_return": 9.24,
+      "sharpe": 0.317,
+      "win_rate": 48.9,
+      "trades": 309,
+      "max_dd": -24.42,
+      "bar_count": 1680
+    },
+    "USD_TRY": {
+      "total_return": -1.65,
+      "annual_return": -2.1,
+      "sharpe": -0.298,
+      "win_rate": 45.9,
+      "trades": 208,
+      "max_dd": -8.02,
+      "bar_count": 1184
+    },
+    "NAS100_USD": {
+      "total_return": -2.56,
+      "annual_return": -2.3,
+      "sharpe": -0.026,
+      "win_rate": 49.1,
+      "trades": 312,
+      "max_dd": -23.56,
+      "bar_count": 1686
+    },
+    "XAG_USD": {
+      "total_return": 28.49,
+      "annual_return": 25.34,
+      "sharpe": 0.619,
+      "win_rate": 49.6,
+      "trades": 311,
+      "max_dd": -23.77,
+      "bar_count": 1678
+    }
+  },
+  "summary": {
+    "best_instrument": "XAU_USD",
+    "worst_instrument": "BTC_USD",
+    "avg_sharpe": 0.195,
+    "avg_win_rate": 48.4,
+    "total_trades": 1804,
+    "passing_instruments": [
+      "XAU_USD",
+      "BCO_USD",
+      "XAG_USD"
+    ],
+    "failing_instruments": [
+      "BTC_USD",
+      "USD_TRY",
+      "NAS100_USD"
+    ]
+  },
+  "errors": []
+}

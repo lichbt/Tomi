@@ -1,0 +1,2970 @@
+{
+  "BTC_USD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": 1041.29,
+      "num_trades": 88,
+      "win_rate_pct": 45.45,
+      "sharpe_ratio": -0.075,
+      "max_drawdown_pct": -109.71,
+      "profit_factor": 1.568,
+      "final_value": 1141294.5,
+      "avg_trade": 11832.89
+    },
+    "oos": {
+      "total_return_pct": 182.76,
+      "num_trades": 115,
+      "win_rate_pct": 32.17,
+      "sharpe_ratio": 2.106,
+      "max_drawdown_pct": -98.14,
+      "profit_factor": 1.221,
+      "final_value": 282759.16,
+      "avg_trade": 1589.21
+    },
+    "oos_is_ratio": 0,
+    "status": "\u26a0\ufe0f"
+  },
+  "BTC_USD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": 384.19,
+      "num_trades": 228,
+      "win_rate_pct": 32.89,
+      "sharpe_ratio": 1.071,
+      "max_drawdown_pct": -111.3,
+      "profit_factor": 1.281,
+      "final_value": 484187.87,
+      "avg_trade": 1685.03
+    },
+    "oos": {
+      "total_return_pct": 57.49,
+      "num_trades": 311,
+      "win_rate_pct": 35.37,
+      "sharpe_ratio": 2.619,
+      "max_drawdown_pct": -103.05,
+      "profit_factor": 1.081,
+      "final_value": 157487.81,
+      "avg_trade": 184.42
+    },
+    "oos_is_ratio": 2.445,
+    "status": "\u26a0\ufe0f"
+  },
+  "BTC_USD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": 3751.9,
+      "num_trades": 144,
+      "win_rate_pct": 36.81,
+      "sharpe_ratio": -0.175,
+      "max_drawdown_pct": -108.92,
+      "profit_factor": 1.799,
+      "final_value": 3851896.86,
+      "avg_trade": 26054.84
+    },
+    "oos": {
+      "total_return_pct": 256.05,
+      "num_trades": 181,
+      "win_rate_pct": 25.97,
+      "sharpe_ratio": 1.914,
+      "max_drawdown_pct": -99.15,
+      "profit_factor": 1.254,
+      "final_value": 356052.13,
+      "avg_trade": 1414.65
+    },
+    "oos_is_ratio": 0,
+    "status": "\u26a0\ufe0f"
+  },
+  "BTC_USD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 26,
+      "s_period": 52,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": 608.59,
+      "num_trades": 84,
+      "win_rate_pct": 36.9,
+      "sharpe_ratio": -0.061,
+      "max_drawdown_pct": -108.72,
+      "profit_factor": 1.45,
+      "final_value": 708592.82,
+      "avg_trade": 7245.15
+    },
+    "oos": {
+      "total_return_pct": 220.96,
+      "num_trades": 89,
+      "win_rate_pct": 31.46,
+      "sharpe_ratio": 1.353,
+      "max_drawdown_pct": -104.01,
+      "profit_factor": 1.296,
+      "final_value": 320955.2,
+      "avg_trade": 2482.64
+    },
+    "oos_is_ratio": 0,
+    "status": "\u26a0\ufe0f"
+  },
+  "BTC_USD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 14,
+      "st_mult": 2.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 165.74,
+      "num_trades": 331,
+      "win_rate_pct": 48.34,
+      "sharpe_ratio": 2.04,
+      "max_drawdown_pct": -102.05,
+      "profit_factor": 1.244,
+      "final_value": 265742.92,
+      "avg_trade": 500.73
+    },
+    "oos": {
+      "total_return_pct": -52.26,
+      "num_trades": 275,
+      "win_rate_pct": 37.82,
+      "sharpe_ratio": 2.719,
+      "max_drawdown_pct": -98.38,
+      "profit_factor": 0.748,
+      "final_value": 47740.51,
+      "avg_trade": -190.03
+    },
+    "oos_is_ratio": 1.333,
+    "status": "\u26a0\ufe0f"
+  },
+  "ETH_USD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": 53.9,
+      "num_trades": 33,
+      "win_rate_pct": 42.42,
+      "sharpe_ratio": 0.605,
+      "max_drawdown_pct": -105.55,
+      "profit_factor": 1.298,
+      "final_value": 153899.28,
+      "avg_trade": 1633.31
+    },
+    "oos": {
+      "total_return_pct": -82.7,
+      "num_trades": 117,
+      "win_rate_pct": 35.9,
+      "sharpe_ratio": 1.243,
+      "max_drawdown_pct": -100.62,
+      "profit_factor": 0.61,
+      "final_value": 17302.81,
+      "avg_trade": -706.81
+    },
+    "oos_is_ratio": 2.055,
+    "status": "\u26a0\ufe0f"
+  },
+  "ETH_USD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 20,
+      "vol_mult": 1.0,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": 148.75,
+      "num_trades": 86,
+      "win_rate_pct": 45.35,
+      "sharpe_ratio": 2.135,
+      "max_drawdown_pct": -108.51,
+      "profit_factor": 1.413,
+      "final_value": 248751.45,
+      "avg_trade": 1729.67
+    },
+    "oos": {
+      "total_return_pct": 69.87,
+      "num_trades": 302,
+      "win_rate_pct": 35.43,
+      "sharpe_ratio": 1.522,
+      "max_drawdown_pct": -116.56,
+      "profit_factor": 1.063,
+      "final_value": 169867.61,
+      "avg_trade": 231.35
+    },
+    "oos_is_ratio": 0.713,
+    "status": "\u26a0\ufe0f"
+  },
+  "ETH_USD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 30,
+      "ema_period": 50,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 85.86,
+      "num_trades": 41,
+      "win_rate_pct": 39.02,
+      "sharpe_ratio": -0.513,
+      "max_drawdown_pct": -105.42,
+      "profit_factor": 1.321,
+      "final_value": 185860.88,
+      "avg_trade": 2094.17
+    },
+    "oos": {
+      "total_return_pct": -19.84,
+      "num_trades": 150,
+      "win_rate_pct": 35.33,
+      "sharpe_ratio": 0.788,
+      "max_drawdown_pct": -123.67,
+      "profit_factor": 0.962,
+      "final_value": 80164.13,
+      "avg_trade": -133.07
+    },
+    "oos_is_ratio": 0,
+    "status": "\u26a0\ufe0f"
+  },
+  "ETH_USD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 26,
+      "s_period": 52,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": 68.86,
+      "num_trades": 31,
+      "win_rate_pct": 41.94,
+      "sharpe_ratio": 0.365,
+      "max_drawdown_pct": -106.3,
+      "profit_factor": 1.431,
+      "final_value": 168861.24,
+      "avg_trade": 2221.33
+    },
+    "oos": {
+      "total_return_pct": 449.19,
+      "num_trades": 89,
+      "win_rate_pct": 32.58,
+      "sharpe_ratio": 0.698,
+      "max_drawdown_pct": -111.94,
+      "profit_factor": 1.354,
+      "final_value": 549190.33,
+      "avg_trade": 5047.08
+    },
+    "oos_is_ratio": 1.912,
+    "status": "\u26a0\ufe0f"
+  },
+  "ETH_USD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 10,
+      "st_mult": 2.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -41.94,
+      "num_trades": 120,
+      "win_rate_pct": 41.67,
+      "sharpe_ratio": 0.759,
+      "max_drawdown_pct": -111.45,
+      "profit_factor": 0.837,
+      "final_value": 58060.32,
+      "avg_trade": -349.5
+    },
+    "oos": {
+      "total_return_pct": -97.37,
+      "num_trades": 390,
+      "win_rate_pct": 40.51,
+      "sharpe_ratio": 2.938,
+      "max_drawdown_pct": -102.15,
+      "profit_factor": 0.777,
+      "final_value": 2631.53,
+      "avg_trade": -196.99
+    },
+    "oos_is_ratio": 3.871,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAU_USD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": -3.49,
+      "num_trades": 67,
+      "win_rate_pct": 32.84,
+      "sharpe_ratio": 1.641,
+      "max_drawdown_pct": -96.61,
+      "profit_factor": 0.945,
+      "final_value": 96510.67,
+      "avg_trade": -52.08
+    },
+    "oos": {
+      "total_return_pct": 38.68,
+      "num_trades": 76,
+      "win_rate_pct": 40.79,
+      "sharpe_ratio": 3.259,
+      "max_drawdown_pct": -99.52,
+      "profit_factor": 1.573,
+      "final_value": 138676.52,
+      "avg_trade": 508.9
+    },
+    "oos_is_ratio": 1.986,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAU_USD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -30.89,
+      "num_trades": 196,
+      "win_rate_pct": 28.57,
+      "sharpe_ratio": 4.229,
+      "max_drawdown_pct": -97.89,
+      "profit_factor": 0.679,
+      "final_value": 69106.46,
+      "avg_trade": -157.62
+    },
+    "oos": {
+      "total_return_pct": -42.74,
+      "num_trades": 223,
+      "win_rate_pct": 31.84,
+      "sharpe_ratio": 4.196,
+      "max_drawdown_pct": -98.87,
+      "profit_factor": 0.628,
+      "final_value": 57262.24,
+      "avg_trade": -191.65
+    },
+    "oos_is_ratio": 0.992,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAU_USD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 50,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -8.2,
+      "num_trades": 123,
+      "win_rate_pct": 28.46,
+      "sharpe_ratio": 3.488,
+      "max_drawdown_pct": -97.45,
+      "profit_factor": 0.906,
+      "final_value": 91804.48,
+      "avg_trade": -66.63
+    },
+    "oos": {
+      "total_return_pct": -5.81,
+      "num_trades": 137,
+      "win_rate_pct": 29.93,
+      "sharpe_ratio": 3.164,
+      "max_drawdown_pct": -98.53,
+      "profit_factor": 0.945,
+      "final_value": 94194.27,
+      "avg_trade": -42.38
+    },
+    "oos_is_ratio": 0.907,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAU_USD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 9,
+      "k_period": 22,
+      "s_period": 52,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 0.23,
+      "num_trades": 69,
+      "win_rate_pct": 34.78,
+      "sharpe_ratio": 2.504,
+      "max_drawdown_pct": -98.0,
+      "profit_factor": 1.005,
+      "final_value": 100233.36,
+      "avg_trade": 3.38
+    },
+    "oos": {
+      "total_return_pct": 6.73,
+      "num_trades": 89,
+      "win_rate_pct": 30.34,
+      "sharpe_ratio": 2.581,
+      "max_drawdown_pct": -98.16,
+      "profit_factor": 1.08,
+      "final_value": 106730.98,
+      "avg_trade": 75.63
+    },
+    "oos_is_ratio": 1.031,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAU_USD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 4.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -12.31,
+      "num_trades": 50,
+      "win_rate_pct": 30.0,
+      "sharpe_ratio": 2.322,
+      "max_drawdown_pct": -97.35,
+      "profit_factor": 0.471,
+      "final_value": 87689.4,
+      "avg_trade": -246.21
+    },
+    "oos": {
+      "total_return_pct": -5.46,
+      "num_trades": 116,
+      "win_rate_pct": 47.41,
+      "sharpe_ratio": 3.256,
+      "max_drawdown_pct": -96.6,
+      "profit_factor": 0.883,
+      "final_value": 94536.0,
+      "avg_trade": -48.23
+    },
+    "oos_is_ratio": 1.402,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAG_USD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 12,
+      "slow": 34,
+      "signal": 7,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -11.43,
+      "num_trades": 80,
+      "win_rate_pct": 35.0,
+      "sharpe_ratio": 1.812,
+      "max_drawdown_pct": -99.71,
+      "profit_factor": 0.899,
+      "final_value": 88574.4,
+      "avg_trade": -142.82
+    },
+    "oos": {
+      "total_return_pct": -17.52,
+      "num_trades": 91,
+      "win_rate_pct": 35.16,
+      "sharpe_ratio": 1.266,
+      "max_drawdown_pct": -100.62,
+      "profit_factor": 0.896,
+      "final_value": 82481.93,
+      "avg_trade": -192.51
+    },
+    "oos_is_ratio": 0.699,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAG_USD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 20,
+      "vol_mult": 2.0,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -8.83,
+      "num_trades": 51,
+      "win_rate_pct": 39.22,
+      "sharpe_ratio": 1.448,
+      "max_drawdown_pct": -98.84,
+      "profit_factor": 0.835,
+      "final_value": 91170.69,
+      "avg_trade": -173.12
+    },
+    "oos": {
+      "total_return_pct": -2.95,
+      "num_trades": 57,
+      "win_rate_pct": 45.61,
+      "sharpe_ratio": 1.817,
+      "max_drawdown_pct": -103.29,
+      "profit_factor": 0.947,
+      "final_value": 97045.79,
+      "avg_trade": -51.83
+    },
+    "oos_is_ratio": 1.255,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAG_USD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 30,
+      "ema_period": 50,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -40.86,
+      "num_trades": 86,
+      "win_rate_pct": 25.58,
+      "sharpe_ratio": 2.09,
+      "max_drawdown_pct": -102.09,
+      "profit_factor": 0.52,
+      "final_value": 59137.52,
+      "avg_trade": -475.15
+    },
+    "oos": {
+      "total_return_pct": -36.91,
+      "num_trades": 101,
+      "win_rate_pct": 29.7,
+      "sharpe_ratio": 1.823,
+      "max_drawdown_pct": -101.21,
+      "profit_factor": 0.744,
+      "final_value": 63092.85,
+      "avg_trade": -365.42
+    },
+    "oos_is_ratio": 0.872,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAG_USD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 26,
+      "s_period": 44,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": -19.11,
+      "num_trades": 61,
+      "win_rate_pct": 32.79,
+      "sharpe_ratio": 1.309,
+      "max_drawdown_pct": -99.68,
+      "profit_factor": 0.752,
+      "final_value": 80888.85,
+      "avg_trade": -313.3
+    },
+    "oos": {
+      "total_return_pct": -0.65,
+      "num_trades": 80,
+      "win_rate_pct": 32.5,
+      "sharpe_ratio": 0.722,
+      "max_drawdown_pct": -100.64,
+      "profit_factor": 0.996,
+      "final_value": 99351.69,
+      "avg_trade": -8.1
+    },
+    "oos_is_ratio": 0.552,
+    "status": "\u26a0\ufe0f"
+  },
+  "XAG_USD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 14,
+      "st_mult": 4.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -3.32,
+      "num_trades": 66,
+      "win_rate_pct": 36.36,
+      "sharpe_ratio": 1.832,
+      "max_drawdown_pct": -99.49,
+      "profit_factor": 0.913,
+      "final_value": 96679.85,
+      "avg_trade": -52.38
+    },
+    "oos": {
+      "total_return_pct": -48.66,
+      "num_trades": 103,
+      "win_rate_pct": 34.95,
+      "sharpe_ratio": 2.263,
+      "max_drawdown_pct": -104.08,
+      "profit_factor": 0.508,
+      "final_value": 51342.87,
+      "avg_trade": -473.27
+    },
+    "oos_is_ratio": 1.235,
+    "status": "\u26a0\ufe0f"
+  },
+  "BCO_USD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 12,
+      "slow": 21,
+      "signal": 9,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -93.56,
+      "num_trades": 60,
+      "win_rate_pct": 36.67,
+      "sharpe_ratio": 0.066,
+      "max_drawdown_pct": -101.64,
+      "profit_factor": 0.912,
+      "final_value": 6435.8,
+      "avg_trade": -162.19
+    },
+    "oos": {
+      "total_return_pct": -52.11,
+      "num_trades": 82,
+      "win_rate_pct": 30.49,
+      "sharpe_ratio": 1.064,
+      "max_drawdown_pct": -103.45,
+      "profit_factor": 0.702,
+      "final_value": 47885.76,
+      "avg_trade": -635.54
+    },
+    "oos_is_ratio": 16.121,
+    "status": "\u26a0\ufe0f"
+  },
+  "BCO_USD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": -56.05,
+      "num_trades": 187,
+      "win_rate_pct": 34.22,
+      "sharpe_ratio": 0.541,
+      "max_drawdown_pct": -103.41,
+      "profit_factor": 0.713,
+      "final_value": 43947.4,
+      "avg_trade": -299.75
+    },
+    "oos": {
+      "total_return_pct": -53.73,
+      "num_trades": 226,
+      "win_rate_pct": 33.63,
+      "sharpe_ratio": 1.884,
+      "max_drawdown_pct": -103.8,
+      "profit_factor": 0.79,
+      "final_value": 46268.89,
+      "avg_trade": -237.75
+    },
+    "oos_is_ratio": 3.482,
+    "status": "\u26a0\ufe0f"
+  },
+  "BCO_USD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -96.61,
+      "num_trades": 112,
+      "win_rate_pct": 32.14,
+      "sharpe_ratio": 1.137,
+      "max_drawdown_pct": -102.67,
+      "profit_factor": 0.76,
+      "final_value": 3386.89,
+      "avg_trade": -391.53
+    },
+    "oos": {
+      "total_return_pct": -42.26,
+      "num_trades": 145,
+      "win_rate_pct": 27.59,
+      "sharpe_ratio": 1.728,
+      "max_drawdown_pct": -102.23,
+      "profit_factor": 0.887,
+      "final_value": 57741.04,
+      "avg_trade": -291.44
+    },
+    "oos_is_ratio": 1.52,
+    "status": "\u26a0\ufe0f"
+  },
+  "BCO_USD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 9,
+      "k_period": 26,
+      "s_period": 52,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": 39.74,
+      "num_trades": 42,
+      "win_rate_pct": 35.71,
+      "sharpe_ratio": -0.347,
+      "max_drawdown_pct": -105.78,
+      "profit_factor": 1.322,
+      "final_value": 139735.18,
+      "avg_trade": 946.08
+    },
+    "oos": {
+      "total_return_pct": -14.26,
+      "num_trades": 57,
+      "win_rate_pct": 24.56,
+      "sharpe_ratio": 1.395,
+      "max_drawdown_pct": -101.2,
+      "profit_factor": 0.875,
+      "final_value": 85738.04,
+      "avg_trade": -250.21
+    },
+    "oos_is_ratio": 0,
+    "status": "\u26a0\ufe0f"
+  },
+  "BCO_USD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 2.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -60.99,
+      "num_trades": 248,
+      "win_rate_pct": 41.53,
+      "sharpe_ratio": 2.643,
+      "max_drawdown_pct": -102.73,
+      "profit_factor": 0.676,
+      "final_value": 39008.66,
+      "avg_trade": -245.93
+    },
+    "oos": {
+      "total_return_pct": -27.15,
+      "num_trades": 280,
+      "win_rate_pct": 45.36,
+      "sharpe_ratio": 3.815,
+      "max_drawdown_pct": -105.52,
+      "profit_factor": 0.843,
+      "final_value": 72847.76,
+      "avg_trade": -96.97
+    },
+    "oos_is_ratio": 1.443,
+    "status": "\u26a0\ufe0f"
+  },
+  "WTI_USD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 7,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": 11.88,
+      "num_trades": 56,
+      "win_rate_pct": 41.07,
+      "sharpe_ratio": 0.766,
+      "max_drawdown_pct": -106.88,
+      "profit_factor": 1.07,
+      "final_value": 111877.51,
+      "avg_trade": 212.1
+    },
+    "oos": {
+      "total_return_pct": -79.35,
+      "num_trades": 73,
+      "win_rate_pct": 28.77,
+      "sharpe_ratio": 1.132,
+      "max_drawdown_pct": -101.2,
+      "profit_factor": 0.36,
+      "final_value": 20649.74,
+      "avg_trade": -1086.99
+    },
+    "oos_is_ratio": 1.478,
+    "status": "\u274c"
+  },
+  "WTI_USD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -62.16,
+      "num_trades": 200,
+      "win_rate_pct": 34.5,
+      "sharpe_ratio": 1.706,
+      "max_drawdown_pct": -101.52,
+      "profit_factor": 0.647,
+      "final_value": 37840.58,
+      "avg_trade": -310.8
+    },
+    "oos": {
+      "total_return_pct": -69.6,
+      "num_trades": 239,
+      "win_rate_pct": 30.54,
+      "sharpe_ratio": 1.373,
+      "max_drawdown_pct": -100.69,
+      "profit_factor": 0.779,
+      "final_value": 30395.32,
+      "avg_trade": -291.23
+    },
+    "oos_is_ratio": 0.805,
+    "status": "\u26a0\ufe0f"
+  },
+  "WTI_USD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 25,
+      "ema_period": 20,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -59.86,
+      "num_trades": 102,
+      "win_rate_pct": 28.43,
+      "sharpe_ratio": 1.946,
+      "max_drawdown_pct": -100.99,
+      "profit_factor": 0.603,
+      "final_value": 40135.03,
+      "avg_trade": -586.91
+    },
+    "oos": {
+      "total_return_pct": -47.21,
+      "num_trades": 102,
+      "win_rate_pct": 29.41,
+      "sharpe_ratio": 1.948,
+      "max_drawdown_pct": -99.88,
+      "profit_factor": 0.812,
+      "final_value": 52789.65,
+      "avg_trade": -462.85
+    },
+    "oos_is_ratio": 1.001,
+    "status": "\u26a0\ufe0f"
+  },
+  "WTI_USD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 9,
+      "k_period": 26,
+      "s_period": 52,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -17.21,
+      "num_trades": 50,
+      "win_rate_pct": 22.0,
+      "sharpe_ratio": 0.918,
+      "max_drawdown_pct": -103.23,
+      "profit_factor": 0.884,
+      "final_value": 82791.81,
+      "avg_trade": -344.16
+    },
+    "oos": {
+      "total_return_pct": -42.4,
+      "num_trades": 55,
+      "win_rate_pct": 21.82,
+      "sharpe_ratio": 1.31,
+      "max_drawdown_pct": -100.87,
+      "profit_factor": 0.729,
+      "final_value": 57603.22,
+      "avg_trade": -770.85
+    },
+    "oos_is_ratio": 1.427,
+    "status": "\u26a0\ufe0f"
+  },
+  "WTI_USD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 10,
+      "st_mult": 4.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -57.56,
+      "num_trades": 253,
+      "win_rate_pct": 41.5,
+      "sharpe_ratio": 0.831,
+      "max_drawdown_pct": -101.22,
+      "profit_factor": 0.726,
+      "final_value": 42437.98,
+      "avg_trade": -227.52
+    },
+    "oos": {
+      "total_return_pct": 5.02,
+      "num_trades": 303,
+      "win_rate_pct": 45.54,
+      "sharpe_ratio": 3.031,
+      "max_drawdown_pct": -104.01,
+      "profit_factor": 1.018,
+      "final_value": 105021.06,
+      "avg_trade": 16.57
+    },
+    "oos_is_ratio": 3.647,
+    "status": "\u26a0\ufe0f"
+  },
+  "NG_USD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 34,
+      "signal": 9,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": 32.03,
+      "num_trades": 58,
+      "win_rate_pct": 41.38,
+      "sharpe_ratio": 1.038,
+      "max_drawdown_pct": -105.08,
+      "profit_factor": 1.29,
+      "final_value": 132028.17,
+      "avg_trade": 552.21
+    },
+    "oos": {
+      "total_return_pct": -78.38,
+      "num_trades": 68,
+      "win_rate_pct": 32.35,
+      "sharpe_ratio": 0.754,
+      "max_drawdown_pct": -109.02,
+      "profit_factor": 0.729,
+      "final_value": 21624.27,
+      "avg_trade": -1152.58
+    },
+    "oos_is_ratio": 0.726,
+    "status": "\u26a0\ufe0f"
+  },
+  "NG_USD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 20,
+      "vol_mult": 1.0,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": -70.02,
+      "num_trades": 190,
+      "win_rate_pct": 33.16,
+      "sharpe_ratio": 0.803,
+      "max_drawdown_pct": -103.79,
+      "profit_factor": 0.646,
+      "final_value": 29980.13,
+      "avg_trade": -368.53
+    },
+    "oos": {
+      "total_return_pct": -89.35,
+      "num_trades": 213,
+      "win_rate_pct": 34.27,
+      "sharpe_ratio": 1.756,
+      "max_drawdown_pct": -105.52,
+      "profit_factor": 0.598,
+      "final_value": 10651.3,
+      "avg_trade": -419.48
+    },
+    "oos_is_ratio": 2.187,
+    "status": "\u26a0\ufe0f"
+  },
+  "NG_USD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 25,
+      "ema_period": 100,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": -73.99,
+      "num_trades": 77,
+      "win_rate_pct": 25.97,
+      "sharpe_ratio": -0.311,
+      "max_drawdown_pct": -101.96,
+      "profit_factor": 0.44,
+      "final_value": 26010.85,
+      "avg_trade": -960.9
+    },
+    "oos": {
+      "total_return_pct": -101.46,
+      "num_trades": 93,
+      "win_rate_pct": 26.88,
+      "sharpe_ratio": 0.83,
+      "max_drawdown_pct": -114.44,
+      "profit_factor": 0.804,
+      "final_value": -1459.48,
+      "avg_trade": -761.64
+    },
+    "oos_is_ratio": 0,
+    "status": "\u26a0\ufe0f"
+  },
+  "NG_USD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 9,
+      "k_period": 22,
+      "s_period": 52,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -65.62,
+      "num_trades": 55,
+      "win_rate_pct": 27.27,
+      "sharpe_ratio": -0.216,
+      "max_drawdown_pct": -102.28,
+      "profit_factor": 0.419,
+      "final_value": 34379.07,
+      "avg_trade": -1193.11
+    },
+    "oos": {
+      "total_return_pct": -80.93,
+      "num_trades": 66,
+      "win_rate_pct": 28.79,
+      "sharpe_ratio": 0.919,
+      "max_drawdown_pct": -116.82,
+      "profit_factor": 0.66,
+      "final_value": 19070.14,
+      "avg_trade": -1226.21
+    },
+    "oos_is_ratio": 0,
+    "status": "\u26a0\ufe0f"
+  },
+  "NG_USD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 2.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -47.92,
+      "num_trades": 240,
+      "win_rate_pct": 38.33,
+      "sharpe_ratio": 2.083,
+      "max_drawdown_pct": -101.12,
+      "profit_factor": 0.795,
+      "final_value": 52084.49,
+      "avg_trade": -199.65
+    },
+    "oos": {
+      "total_return_pct": -52.63,
+      "num_trades": 291,
+      "win_rate_pct": 47.77,
+      "sharpe_ratio": 1.566,
+      "max_drawdown_pct": -104.85,
+      "profit_factor": 0.854,
+      "final_value": 47366.4,
+      "avg_trade": -180.87
+    },
+    "oos_is_ratio": 0.752,
+    "status": "\u26a0\ufe0f"
+  },
+  "COPPER_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 34,
+      "signal": 7,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -23.0,
+      "num_trades": 79,
+      "win_rate_pct": 32.91,
+      "sharpe_ratio": 2.094,
+      "max_drawdown_pct": -98.82,
+      "profit_factor": 0.753,
+      "final_value": 77002.27,
+      "avg_trade": -291.11
+    },
+    "oos": {
+      "total_return_pct": -2.68,
+      "num_trades": 96,
+      "win_rate_pct": 34.38,
+      "sharpe_ratio": 2.229,
+      "max_drawdown_pct": -98.94,
+      "profit_factor": 0.982,
+      "final_value": 97315.81,
+      "avg_trade": -27.96
+    },
+    "oos_is_ratio": 1.064,
+    "status": "\u26a0\ufe0f"
+  },
+  "COPPER_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -13.33,
+      "num_trades": 197,
+      "win_rate_pct": 30.96,
+      "sharpe_ratio": 4.209,
+      "max_drawdown_pct": -98.19,
+      "profit_factor": 0.897,
+      "final_value": 86667.87,
+      "avg_trade": -67.68
+    },
+    "oos": {
+      "total_return_pct": -40.24,
+      "num_trades": 198,
+      "win_rate_pct": 27.27,
+      "sharpe_ratio": 2.515,
+      "max_drawdown_pct": -99.83,
+      "profit_factor": 0.754,
+      "final_value": 59756.68,
+      "avg_trade": -203.25
+    },
+    "oos_is_ratio": 0.598,
+    "status": "\u26a0\ufe0f"
+  },
+  "COPPER_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -41.41,
+      "num_trades": 144,
+      "win_rate_pct": 27.08,
+      "sharpe_ratio": 3.217,
+      "max_drawdown_pct": -99.44,
+      "profit_factor": 0.697,
+      "final_value": 58586.65,
+      "avg_trade": -287.59
+    },
+    "oos": {
+      "total_return_pct": -59.36,
+      "num_trades": 177,
+      "win_rate_pct": 29.38,
+      "sharpe_ratio": 2.959,
+      "max_drawdown_pct": -107.35,
+      "profit_factor": 0.669,
+      "final_value": 40636.38,
+      "avg_trade": -335.39
+    },
+    "oos_is_ratio": 0.92,
+    "status": "\u26a0\ufe0f"
+  },
+  "COPPER_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 22,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -96.57,
+      "num_trades": 87,
+      "win_rate_pct": 27.59,
+      "sharpe_ratio": 2.619,
+      "max_drawdown_pct": -98.79,
+      "profit_factor": 0.659,
+      "final_value": 3433.64,
+      "avg_trade": -362.82
+    },
+    "oos": {
+      "total_return_pct": -34.28,
+      "num_trades": 101,
+      "win_rate_pct": 35.64,
+      "sharpe_ratio": 2.426,
+      "max_drawdown_pct": -109.49,
+      "profit_factor": 0.79,
+      "final_value": 65723.51,
+      "avg_trade": -339.37
+    },
+    "oos_is_ratio": 0.926,
+    "status": "\u26a0\ufe0f"
+  },
+  "COPPER_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 10,
+      "st_mult": 4.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -4.95,
+      "num_trades": 82,
+      "win_rate_pct": 42.68,
+      "sharpe_ratio": 2.661,
+      "max_drawdown_pct": -97.32,
+      "profit_factor": 0.904,
+      "final_value": 95045.58,
+      "avg_trade": -60.42
+    },
+    "oos": {
+      "total_return_pct": -1.55,
+      "num_trades": 119,
+      "win_rate_pct": 42.02,
+      "sharpe_ratio": 0.42,
+      "max_drawdown_pct": -100.0,
+      "profit_factor": 0.981,
+      "final_value": 98453.59,
+      "avg_trade": -14.27
+    },
+    "oos_is_ratio": 0.158,
+    "status": "\u26a0\ufe0f"
+  },
+  "NAS100_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 34,
+      "signal": 7,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": 15.76,
+      "num_trades": 59,
+      "win_rate_pct": 42.37,
+      "sharpe_ratio": 2.598,
+      "max_drawdown_pct": -97.39,
+      "profit_factor": 1.262,
+      "final_value": 115759.21,
+      "avg_trade": 267.11
+    },
+    "oos": {
+      "total_return_pct": 36.58,
+      "num_trades": 72,
+      "win_rate_pct": 37.5,
+      "sharpe_ratio": 2.788,
+      "max_drawdown_pct": -96.39,
+      "profit_factor": 1.325,
+      "final_value": 136580.95,
+      "avg_trade": 508.07
+    },
+    "oos_is_ratio": 1.073,
+    "status": "\u26a0\ufe0f"
+  },
+  "NAS100_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 30,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 0.78,
+      "num_trades": 168,
+      "win_rate_pct": 39.29,
+      "sharpe_ratio": 3.4,
+      "max_drawdown_pct": -98.52,
+      "profit_factor": 1.007,
+      "final_value": 100779.92,
+      "avg_trade": 3.86
+    },
+    "oos": {
+      "total_return_pct": -46.3,
+      "num_trades": 229,
+      "win_rate_pct": 31.88,
+      "sharpe_ratio": 3.042,
+      "max_drawdown_pct": -97.86,
+      "profit_factor": 0.682,
+      "final_value": 53701.84,
+      "avg_trade": -202.18
+    },
+    "oos_is_ratio": 0.895,
+    "status": "\u26a0\ufe0f"
+  },
+  "NAS100_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 25,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -19.25,
+      "num_trades": 107,
+      "win_rate_pct": 31.78,
+      "sharpe_ratio": 2.716,
+      "max_drawdown_pct": -97.09,
+      "profit_factor": 0.743,
+      "final_value": 80748.71,
+      "avg_trade": -179.92
+    },
+    "oos": {
+      "total_return_pct": -28.19,
+      "num_trades": 126,
+      "win_rate_pct": 35.71,
+      "sharpe_ratio": 2.721,
+      "max_drawdown_pct": -96.94,
+      "profit_factor": 0.779,
+      "final_value": 71813.9,
+      "avg_trade": -223.7
+    },
+    "oos_is_ratio": 1.002,
+    "status": "\u26a0\ufe0f"
+  },
+  "NAS100_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 9,
+      "k_period": 26,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -3.69,
+      "num_trades": 56,
+      "win_rate_pct": 39.29,
+      "sharpe_ratio": 2.43,
+      "max_drawdown_pct": -96.42,
+      "profit_factor": 0.931,
+      "final_value": 96307.55,
+      "avg_trade": -65.94
+    },
+    "oos": {
+      "total_return_pct": 8.71,
+      "num_trades": 74,
+      "win_rate_pct": 43.24,
+      "sharpe_ratio": 2.311,
+      "max_drawdown_pct": -96.74,
+      "profit_factor": 1.104,
+      "final_value": 108712.38,
+      "avg_trade": 117.73
+    },
+    "oos_is_ratio": 0.951,
+    "status": "\u26a0\ufe0f"
+  },
+  "NAS100_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 4.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -41.64,
+      "num_trades": 212,
+      "win_rate_pct": 38.68,
+      "sharpe_ratio": 4.443,
+      "max_drawdown_pct": -97.42,
+      "profit_factor": 0.568,
+      "final_value": 58364.63,
+      "avg_trade": -196.39
+    },
+    "oos": {
+      "total_return_pct": -42.39,
+      "num_trades": 278,
+      "win_rate_pct": 38.13,
+      "sharpe_ratio": 3.762,
+      "max_drawdown_pct": -96.58,
+      "profit_factor": 0.694,
+      "final_value": 57607.15,
+      "avg_trade": -152.49
+    },
+    "oos_is_ratio": 0.847,
+    "status": "\u26a0\ufe0f"
+  },
+  "SP500_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 9,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -89.68,
+      "num_trades": 59,
+      "win_rate_pct": 44.07,
+      "sharpe_ratio": 3.075,
+      "max_drawdown_pct": -97.39,
+      "profit_factor": 1.416,
+      "final_value": 10323.2,
+      "avg_trade": 305.63
+    },
+    "oos": {
+      "total_return_pct": 22.47,
+      "num_trades": 74,
+      "win_rate_pct": 44.59,
+      "sharpe_ratio": 2.944,
+      "max_drawdown_pct": -98.44,
+      "profit_factor": 1.287,
+      "final_value": 122467.66,
+      "avg_trade": 303.62
+    },
+    "oos_is_ratio": 0.957,
+    "status": "\u26a0\ufe0f"
+  },
+  "SP500_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 30,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -12.71,
+      "num_trades": 157,
+      "win_rate_pct": 38.22,
+      "sharpe_ratio": 3.515,
+      "max_drawdown_pct": -98.36,
+      "profit_factor": 0.837,
+      "final_value": 87292.93,
+      "avg_trade": -81.71
+    },
+    "oos": {
+      "total_return_pct": -51.45,
+      "num_trades": 196,
+      "win_rate_pct": 34.18,
+      "sharpe_ratio": 3.095,
+      "max_drawdown_pct": -97.95,
+      "profit_factor": 0.486,
+      "final_value": 48546.94,
+      "avg_trade": -262.52
+    },
+    "oos_is_ratio": 0.881,
+    "status": "\u274c"
+  },
+  "SP500_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 25,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -32.86,
+      "num_trades": 110,
+      "win_rate_pct": 22.73,
+      "sharpe_ratio": 2.7,
+      "max_drawdown_pct": -98.05,
+      "profit_factor": 0.538,
+      "final_value": 67143.86,
+      "avg_trade": -298.69
+    },
+    "oos": {
+      "total_return_pct": -35.43,
+      "num_trades": 139,
+      "win_rate_pct": 30.22,
+      "sharpe_ratio": 3.111,
+      "max_drawdown_pct": -97.59,
+      "profit_factor": 0.698,
+      "final_value": 64571.12,
+      "avg_trade": -254.88
+    },
+    "oos_is_ratio": 1.152,
+    "status": "\u26a0\ufe0f"
+  },
+  "SP500_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 22,
+      "s_period": 52,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -14.99,
+      "num_trades": 55,
+      "win_rate_pct": 36.36,
+      "sharpe_ratio": 2.302,
+      "max_drawdown_pct": -97.81,
+      "profit_factor": 0.724,
+      "final_value": 85008.58,
+      "avg_trade": -272.57
+    },
+    "oos": {
+      "total_return_pct": -6.82,
+      "num_trades": 72,
+      "win_rate_pct": 36.11,
+      "sharpe_ratio": 2.452,
+      "max_drawdown_pct": -97.34,
+      "profit_factor": 0.897,
+      "final_value": 93180.21,
+      "avg_trade": -94.72
+    },
+    "oos_is_ratio": 1.065,
+    "status": "\u26a0\ufe0f"
+  },
+  "SP500_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 3.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -49.95,
+      "num_trades": 217,
+      "win_rate_pct": 32.72,
+      "sharpe_ratio": 4.734,
+      "max_drawdown_pct": -98.51,
+      "profit_factor": 0.347,
+      "final_value": 50051.74,
+      "avg_trade": -230.18
+    },
+    "oos": {
+      "total_return_pct": -24.81,
+      "num_trades": 252,
+      "win_rate_pct": 40.48,
+      "sharpe_ratio": 4.698,
+      "max_drawdown_pct": -97.22,
+      "profit_factor": 0.797,
+      "final_value": 75185.97,
+      "avg_trade": -98.47
+    },
+    "oos_is_ratio": 0.992,
+    "status": "\u26a0\ufe0f"
+  },
+  "DOW_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 9,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -87.51,
+      "num_trades": 58,
+      "win_rate_pct": 41.38,
+      "sharpe_ratio": 2.213,
+      "max_drawdown_pct": -96.53,
+      "profit_factor": 1.756,
+      "final_value": 12490.55,
+      "avg_trade": 433.8
+    },
+    "oos": {
+      "total_return_pct": 3.23,
+      "num_trades": 75,
+      "win_rate_pct": 41.33,
+      "sharpe_ratio": 2.332,
+      "max_drawdown_pct": -97.23,
+      "profit_factor": 1.046,
+      "final_value": 103225.19,
+      "avg_trade": 43.0
+    },
+    "oos_is_ratio": 1.054,
+    "status": "\u26a0\ufe0f"
+  },
+  "DOW_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 20,
+      "vol_mult": 1.0,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": -30.86,
+      "num_trades": 158,
+      "win_rate_pct": 31.65,
+      "sharpe_ratio": 2.735,
+      "max_drawdown_pct": -97.32,
+      "profit_factor": 0.552,
+      "final_value": 69140.31,
+      "avg_trade": -195.86
+    },
+    "oos": {
+      "total_return_pct": -44.87,
+      "num_trades": 190,
+      "win_rate_pct": 32.63,
+      "sharpe_ratio": 2.417,
+      "max_drawdown_pct": -93.48,
+      "profit_factor": 0.482,
+      "final_value": 55132.81,
+      "avg_trade": -236.14
+    },
+    "oos_is_ratio": 0.884,
+    "status": "\u274c"
+  },
+  "DOW_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -18.42,
+      "num_trades": 121,
+      "win_rate_pct": 25.62,
+      "sharpe_ratio": 2.208,
+      "max_drawdown_pct": -96.61,
+      "profit_factor": 0.725,
+      "final_value": 81582.81,
+      "avg_trade": -152.21
+    },
+    "oos": {
+      "total_return_pct": -20.67,
+      "num_trades": 152,
+      "win_rate_pct": 29.61,
+      "sharpe_ratio": 2.207,
+      "max_drawdown_pct": -95.45,
+      "profit_factor": 0.773,
+      "final_value": 79334.28,
+      "avg_trade": -135.96
+    },
+    "oos_is_ratio": 1.0,
+    "status": "\u26a0\ufe0f"
+  },
+  "DOW_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 26,
+      "s_period": 52,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 4.41,
+      "num_trades": 55,
+      "win_rate_pct": 34.55,
+      "sharpe_ratio": 1.803,
+      "max_drawdown_pct": -97.45,
+      "profit_factor": 1.085,
+      "final_value": 104407.36,
+      "avg_trade": 80.13
+    },
+    "oos": {
+      "total_return_pct": -12.88,
+      "num_trades": 73,
+      "win_rate_pct": 35.62,
+      "sharpe_ratio": 1.761,
+      "max_drawdown_pct": -95.96,
+      "profit_factor": 0.744,
+      "final_value": 87123.24,
+      "avg_trade": -176.39
+    },
+    "oos_is_ratio": 0.977,
+    "status": "\u26a0\ufe0f"
+  },
+  "DOW_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 3.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -32.41,
+      "num_trades": 210,
+      "win_rate_pct": 36.67,
+      "sharpe_ratio": 3.578,
+      "max_drawdown_pct": -95.95,
+      "profit_factor": 0.475,
+      "final_value": 67590.98,
+      "avg_trade": -154.33
+    },
+    "oos": {
+      "total_return_pct": -16.66,
+      "num_trades": 260,
+      "win_rate_pct": 41.15,
+      "sharpe_ratio": 3.209,
+      "max_drawdown_pct": -96.17,
+      "profit_factor": 0.818,
+      "final_value": 83337.21,
+      "avg_trade": -64.09
+    },
+    "oos_is_ratio": 0.897,
+    "status": "\u26a0\ufe0f"
+  },
+  "RUSSELL_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 26,
+      "signal": 7,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": 2.11,
+      "num_trades": 32,
+      "win_rate_pct": 28.12,
+      "sharpe_ratio": 0.13,
+      "max_drawdown_pct": -13.58,
+      "profit_factor": 1.063,
+      "final_value": 102112.34,
+      "avg_trade": 66.01
+    },
+    "oos": {
+      "total_return_pct": 24.74,
+      "num_trades": 75,
+      "win_rate_pct": 37.33,
+      "sharpe_ratio": 2.708,
+      "max_drawdown_pct": -101.22,
+      "profit_factor": 1.206,
+      "final_value": 124742.85,
+      "avg_trade": 329.9
+    },
+    "oos_is_ratio": 20.831,
+    "status": "\u26a0\ufe0f"
+  },
+  "RUSSELL_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 30,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -15.71,
+      "num_trades": 84,
+      "win_rate_pct": 29.76,
+      "sharpe_ratio": 3.765,
+      "max_drawdown_pct": -97.88,
+      "profit_factor": 0.702,
+      "final_value": 84293.04,
+      "avg_trade": -186.99
+    },
+    "oos": {
+      "total_return_pct": -60.98,
+      "num_trades": 218,
+      "win_rate_pct": 31.19,
+      "sharpe_ratio": 3.265,
+      "max_drawdown_pct": -98.99,
+      "profit_factor": 0.516,
+      "final_value": 39018.14,
+      "avg_trade": -279.73
+    },
+    "oos_is_ratio": 0.867,
+    "status": "\u26a0\ufe0f"
+  },
+  "RUSSELL_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 25,
+      "ema_period": 100,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -9.36,
+      "num_trades": 36,
+      "win_rate_pct": 33.33,
+      "sharpe_ratio": 2.46,
+      "max_drawdown_pct": -97.97,
+      "profit_factor": 0.74,
+      "final_value": 90635.26,
+      "avg_trade": -260.13
+    },
+    "oos": {
+      "total_return_pct": -39.36,
+      "num_trades": 106,
+      "win_rate_pct": 24.53,
+      "sharpe_ratio": 2.876,
+      "max_drawdown_pct": -98.45,
+      "profit_factor": 0.685,
+      "final_value": 60641.31,
+      "avg_trade": -371.31
+    },
+    "oos_is_ratio": 1.169,
+    "status": "\u26a0\ufe0f"
+  },
+  "RUSSELL_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 9,
+      "k_period": 26,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 5.71,
+      "num_trades": 23,
+      "win_rate_pct": 43.48,
+      "sharpe_ratio": 1.796,
+      "max_drawdown_pct": -98.21,
+      "profit_factor": 1.2,
+      "final_value": 105713.62,
+      "avg_trade": 248.42
+    },
+    "oos": {
+      "total_return_pct": -45.06,
+      "num_trades": 86,
+      "win_rate_pct": 24.42,
+      "sharpe_ratio": 2.376,
+      "max_drawdown_pct": -99.05,
+      "profit_factor": 0.602,
+      "final_value": 54942.58,
+      "avg_trade": -523.92
+    },
+    "oos_is_ratio": 1.323,
+    "status": "\u26a0\ufe0f"
+  },
+  "RUSSELL_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 3.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -32.4,
+      "num_trades": 112,
+      "win_rate_pct": 31.25,
+      "sharpe_ratio": 4.541,
+      "max_drawdown_pct": -98.94,
+      "profit_factor": 0.4,
+      "final_value": 67597.8,
+      "avg_trade": -290.16
+    },
+    "oos": {
+      "total_return_pct": -61.22,
+      "num_trades": 253,
+      "win_rate_pct": 41.11,
+      "sharpe_ratio": 4.429,
+      "max_drawdown_pct": -98.83,
+      "profit_factor": 0.621,
+      "final_value": 38784.96,
+      "avg_trade": -241.96
+    },
+    "oos_is_ratio": 0.975,
+    "status": "\u26a0\ufe0f"
+  },
+  "EURUSD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 34,
+      "signal": 7,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -25.67,
+      "num_trades": 68,
+      "win_rate_pct": 25.0,
+      "sharpe_ratio": 3.432,
+      "max_drawdown_pct": -97.8,
+      "profit_factor": 0.437,
+      "final_value": 74332.19,
+      "avg_trade": -377.47
+    },
+    "oos": {
+      "total_return_pct": -25.98,
+      "num_trades": 75,
+      "win_rate_pct": 28.0,
+      "sharpe_ratio": 2.799,
+      "max_drawdown_pct": -97.63,
+      "profit_factor": 0.462,
+      "final_value": 74021.68,
+      "avg_trade": -346.38
+    },
+    "oos_is_ratio": 0.816,
+    "status": "\u274c"
+  },
+  "EURUSD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -29.17,
+      "num_trades": 177,
+      "win_rate_pct": 39.55,
+      "sharpe_ratio": 3.952,
+      "max_drawdown_pct": -97.69,
+      "profit_factor": 0.619,
+      "final_value": 70828.56,
+      "avg_trade": -164.81
+    },
+    "oos": {
+      "total_return_pct": -24.64,
+      "num_trades": 201,
+      "win_rate_pct": 40.8,
+      "sharpe_ratio": 4.177,
+      "max_drawdown_pct": -97.59,
+      "profit_factor": 0.698,
+      "final_value": 75357.55,
+      "avg_trade": -122.6
+    },
+    "oos_is_ratio": 1.057,
+    "status": "\u26a0\ufe0f"
+  },
+  "EURUSD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -27.14,
+      "num_trades": 133,
+      "win_rate_pct": 26.32,
+      "sharpe_ratio": 3.427,
+      "max_drawdown_pct": -97.24,
+      "profit_factor": 0.49,
+      "final_value": 72858.97,
+      "avg_trade": -204.07
+    },
+    "oos": {
+      "total_return_pct": 1.97,
+      "num_trades": 135,
+      "win_rate_pct": 35.56,
+      "sharpe_ratio": 2.994,
+      "max_drawdown_pct": -97.31,
+      "profit_factor": 1.037,
+      "final_value": 101969.78,
+      "avg_trade": 14.59
+    },
+    "oos_is_ratio": 0.874,
+    "status": "\u26a0\ufe0f"
+  },
+  "EURUSD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 22,
+      "s_period": 52,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -22.48,
+      "num_trades": 76,
+      "win_rate_pct": 22.37,
+      "sharpe_ratio": 2.398,
+      "max_drawdown_pct": -97.68,
+      "profit_factor": 0.415,
+      "final_value": 77519.43,
+      "avg_trade": -295.8
+    },
+    "oos": {
+      "total_return_pct": 6.24,
+      "num_trades": 82,
+      "win_rate_pct": 36.59,
+      "sharpe_ratio": 2.382,
+      "max_drawdown_pct": -97.15,
+      "profit_factor": 1.16,
+      "final_value": 106236.09,
+      "avg_trade": 76.05
+    },
+    "oos_is_ratio": 0.993,
+    "status": "\u26a0\ufe0f"
+  },
+  "GBPUSD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 26,
+      "signal": 7,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -25.78,
+      "num_trades": 63,
+      "win_rate_pct": 33.33,
+      "sharpe_ratio": 3.084,
+      "max_drawdown_pct": -102.2,
+      "profit_factor": 0.465,
+      "final_value": 74218.79,
+      "avg_trade": -409.23
+    },
+    "oos": {
+      "total_return_pct": -23.89,
+      "num_trades": 82,
+      "win_rate_pct": 30.49,
+      "sharpe_ratio": 3.437,
+      "max_drawdown_pct": -97.93,
+      "profit_factor": 0.533,
+      "final_value": 76114.93,
+      "avg_trade": -291.28
+    },
+    "oos_is_ratio": 1.114,
+    "status": "\u26a0\ufe0f"
+  },
+  "GBPUSD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 2.83,
+      "num_trades": 157,
+      "win_rate_pct": 46.5,
+      "sharpe_ratio": 3.557,
+      "max_drawdown_pct": -103.72,
+      "profit_factor": 1.036,
+      "final_value": 102834.36,
+      "avg_trade": 18.05
+    },
+    "oos": {
+      "total_return_pct": -22.48,
+      "num_trades": 207,
+      "win_rate_pct": 42.51,
+      "sharpe_ratio": 4.195,
+      "max_drawdown_pct": -97.95,
+      "profit_factor": 0.729,
+      "final_value": 77520.23,
+      "avg_trade": -108.6
+    },
+    "oos_is_ratio": 1.179,
+    "status": "\u26a0\ufe0f"
+  },
+  "GBPUSD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -24.9,
+      "num_trades": 137,
+      "win_rate_pct": 27.74,
+      "sharpe_ratio": 3.433,
+      "max_drawdown_pct": -102.62,
+      "profit_factor": 0.604,
+      "final_value": 75103.01,
+      "avg_trade": -181.73
+    },
+    "oos": {
+      "total_return_pct": -1.74,
+      "num_trades": 139,
+      "win_rate_pct": 34.53,
+      "sharpe_ratio": 3.074,
+      "max_drawdown_pct": -97.07,
+      "profit_factor": 0.971,
+      "final_value": 98255.04,
+      "avg_trade": -12.55
+    },
+    "oos_is_ratio": 0.895,
+    "status": "\u26a0\ufe0f"
+  },
+  "GBPUSD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 9,
+      "k_period": 22,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -8.14,
+      "num_trades": 56,
+      "win_rate_pct": 33.93,
+      "sharpe_ratio": 2.066,
+      "max_drawdown_pct": -96.81,
+      "profit_factor": 0.749,
+      "final_value": 91861.98,
+      "avg_trade": -145.32
+    },
+    "oos": {
+      "total_return_pct": 6.18,
+      "num_trades": 76,
+      "win_rate_pct": 35.53,
+      "sharpe_ratio": 2.303,
+      "max_drawdown_pct": -97.63,
+      "profit_factor": 1.163,
+      "final_value": 106183.37,
+      "avg_trade": 81.36
+    },
+    "oos_is_ratio": 1.115,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDJPY_donchian": {
+    "strategy": "Donchian Breakout",
+    "params": {
+      "entry_period": 15,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 6.13,
+      "num_trades": 5,
+      "win_rate_pct": 40.0,
+      "sharpe_ratio": 0.717,
+      "max_drawdown_pct": -96.15,
+      "profit_factor": 2.267,
+      "final_value": 106131.85,
+      "avg_trade": 1226.37
+    },
+    "oos": {
+      "total_return_pct": -21.38,
+      "num_trades": 7,
+      "win_rate_pct": 57.14,
+      "sharpe_ratio": 0.753,
+      "max_drawdown_pct": -96.29,
+      "profit_factor": 0.204,
+      "final_value": 78616.01,
+      "avg_trade": -3054.86
+    },
+    "oos_is_ratio": 1.05,
+    "status": "\u274c"
+  },
+  "USDJPY_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": 3.79,
+      "num_trades": 69,
+      "win_rate_pct": 28.99,
+      "sharpe_ratio": 0.724,
+      "max_drawdown_pct": -95.96,
+      "profit_factor": 1.098,
+      "final_value": 103789.96,
+      "avg_trade": 54.93
+    },
+    "oos": {
+      "total_return_pct": -96.61,
+      "num_trades": 93,
+      "win_rate_pct": 27.96,
+      "sharpe_ratio": 3.591,
+      "max_drawdown_pct": -98.31,
+      "profit_factor": 0.724,
+      "final_value": 3391.16,
+      "avg_trade": -180.9
+    },
+    "oos_is_ratio": 4.96,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDJPY_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 12.41,
+      "num_trades": 155,
+      "win_rate_pct": 48.39,
+      "sharpe_ratio": 3.412,
+      "max_drawdown_pct": -98.07,
+      "profit_factor": 1.176,
+      "final_value": 112413.87,
+      "avg_trade": 80.09
+    },
+    "oos": {
+      "total_return_pct": -24.77,
+      "num_trades": 189,
+      "win_rate_pct": 41.8,
+      "sharpe_ratio": 3.826,
+      "max_drawdown_pct": -98.95,
+      "profit_factor": 0.698,
+      "final_value": 75233.34,
+      "avg_trade": -131.04
+    },
+    "oos_is_ratio": 1.121,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDJPY_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -95.79,
+      "num_trades": 119,
+      "win_rate_pct": 28.57,
+      "sharpe_ratio": 3.169,
+      "max_drawdown_pct": -98.02,
+      "profit_factor": 0.902,
+      "final_value": 4209.67,
+      "avg_trade": -47.43
+    },
+    "oos": {
+      "total_return_pct": 23.28,
+      "num_trades": 137,
+      "win_rate_pct": 32.12,
+      "sharpe_ratio": 3.235,
+      "max_drawdown_pct": -96.43,
+      "profit_factor": 1.388,
+      "final_value": 123281.18,
+      "avg_trade": 169.94
+    },
+    "oos_is_ratio": 1.021,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDJPY_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 26,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -95.64,
+      "num_trades": 58,
+      "win_rate_pct": 37.93,
+      "sharpe_ratio": 2.325,
+      "max_drawdown_pct": -96.27,
+      "profit_factor": 0.922,
+      "final_value": 4358.4,
+      "avg_trade": -41.74
+    },
+    "oos": {
+      "total_return_pct": 27.87,
+      "num_trades": 75,
+      "win_rate_pct": 41.33,
+      "sharpe_ratio": 2.52,
+      "max_drawdown_pct": -96.55,
+      "profit_factor": 1.802,
+      "final_value": 127866.0,
+      "avg_trade": 371.55
+    },
+    "oos_is_ratio": 1.084,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDTRY_donchian": {
+    "strategy": "Donchian Breakout",
+    "params": {
+      "entry_period": 15,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -96.07,
+      "num_trades": 6,
+      "win_rate_pct": 33.33,
+      "sharpe_ratio": 0.236,
+      "max_drawdown_pct": -126.24,
+      "profit_factor": 0.108,
+      "final_value": 3931.04,
+      "avg_trade": -16011.49
+    },
+    "oos": {
+      "total_return_pct": 131.5,
+      "num_trades": 21,
+      "win_rate_pct": 66.67,
+      "sharpe_ratio": 1.518,
+      "max_drawdown_pct": -97.73,
+      "profit_factor": 5.483,
+      "final_value": 231500.82,
+      "avg_trade": 6261.94
+    },
+    "oos_is_ratio": 6.432,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDTRY_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 12.06,
+      "num_trades": 70,
+      "win_rate_pct": 34.29,
+      "sharpe_ratio": 1.967,
+      "max_drawdown_pct": -97.21,
+      "profit_factor": 1.157,
+      "final_value": 112061.24,
+      "avg_trade": 172.3
+    },
+    "oos": {
+      "total_return_pct": 54.3,
+      "num_trades": 85,
+      "win_rate_pct": 37.65,
+      "sharpe_ratio": 2.965,
+      "max_drawdown_pct": -98.71,
+      "profit_factor": 1.873,
+      "final_value": 154304.86,
+      "avg_trade": 638.88
+    },
+    "oos_is_ratio": 1.507,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDTRY_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.0,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": 20.94,
+      "num_trades": 135,
+      "win_rate_pct": 48.15,
+      "sharpe_ratio": 3.41,
+      "max_drawdown_pct": -97.41,
+      "profit_factor": 1.224,
+      "final_value": 120943.01,
+      "avg_trade": 155.13
+    },
+    "oos": {
+      "total_return_pct": 34.6,
+      "num_trades": 154,
+      "win_rate_pct": 31.82,
+      "sharpe_ratio": 3.317,
+      "max_drawdown_pct": -103.68,
+      "profit_factor": 1.334,
+      "final_value": 134595.49,
+      "avg_trade": 224.65
+    },
+    "oos_is_ratio": 0.973,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDTRY_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 25,
+      "ema_period": 50,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 37.53,
+      "num_trades": 94,
+      "win_rate_pct": 35.11,
+      "sharpe_ratio": 0.873,
+      "max_drawdown_pct": -99.91,
+      "profit_factor": 1.44,
+      "final_value": 137530.95,
+      "avg_trade": 399.27
+    },
+    "oos": {
+      "total_return_pct": 260.41,
+      "num_trades": 59,
+      "win_rate_pct": 66.1,
+      "sharpe_ratio": 2.44,
+      "max_drawdown_pct": -98.39,
+      "profit_factor": 6.96,
+      "final_value": 360409.59,
+      "avg_trade": 4413.72
+    },
+    "oos_is_ratio": 2.795,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDTRY_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 26,
+      "s_period": 52,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 108.43,
+      "num_trades": 51,
+      "win_rate_pct": 49.02,
+      "sharpe_ratio": 1.9,
+      "max_drawdown_pct": -97.86,
+      "profit_factor": 3.525,
+      "final_value": 208428.62,
+      "avg_trade": 2126.05
+    },
+    "oos": {
+      "total_return_pct": 269.88,
+      "num_trades": 41,
+      "win_rate_pct": 48.78,
+      "sharpe_ratio": 2.017,
+      "max_drawdown_pct": -98.43,
+      "profit_factor": 7.879,
+      "final_value": 369880.41,
+      "avg_trade": 6582.45
+    },
+    "oos_is_ratio": 1.062,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDCAD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 3.0
+    },
+    "is": {
+      "total_return_pct": -26.95,
+      "num_trades": 76,
+      "win_rate_pct": 27.63,
+      "sharpe_ratio": 3.667,
+      "max_drawdown_pct": -97.37,
+      "profit_factor": 0.439,
+      "final_value": 73054.34,
+      "avg_trade": -354.55
+    },
+    "oos": {
+      "total_return_pct": -18.63,
+      "num_trades": 84,
+      "win_rate_pct": 27.38,
+      "sharpe_ratio": 3.165,
+      "max_drawdown_pct": -96.91,
+      "profit_factor": 0.571,
+      "final_value": 81370.01,
+      "avg_trade": -221.79
+    },
+    "oos_is_ratio": 0.863,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDCAD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 20,
+      "vol_mult": 1.0,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": -24.9,
+      "num_trades": 151,
+      "win_rate_pct": 39.74,
+      "sharpe_ratio": 3.787,
+      "max_drawdown_pct": -97.54,
+      "profit_factor": 0.632,
+      "final_value": 75102.49,
+      "avg_trade": -164.88
+    },
+    "oos": {
+      "total_return_pct": -42.09,
+      "num_trades": 185,
+      "win_rate_pct": 33.51,
+      "sharpe_ratio": 4.027,
+      "max_drawdown_pct": -97.79,
+      "profit_factor": 0.391,
+      "final_value": 57913.97,
+      "avg_trade": -227.49
+    },
+    "oos_is_ratio": 1.063,
+    "status": "\u274c"
+  },
+  "USDCAD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 6.97,
+      "num_trades": 114,
+      "win_rate_pct": 29.82,
+      "sharpe_ratio": 3.376,
+      "max_drawdown_pct": -96.36,
+      "profit_factor": 1.145,
+      "final_value": 106969.36,
+      "avg_trade": 61.13
+    },
+    "oos": {
+      "total_return_pct": -8.03,
+      "num_trades": 145,
+      "win_rate_pct": 35.17,
+      "sharpe_ratio": 3.458,
+      "max_drawdown_pct": -96.57,
+      "profit_factor": 0.844,
+      "final_value": 91973.07,
+      "avg_trade": -55.36
+    },
+    "oos_is_ratio": 1.024,
+    "status": "\u26a0\ufe0f"
+  },
+  "USDCAD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 22,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -2.11,
+      "num_trades": 66,
+      "win_rate_pct": 25.76,
+      "sharpe_ratio": 2.499,
+      "max_drawdown_pct": -96.61,
+      "profit_factor": 0.939,
+      "final_value": 97889.82,
+      "avg_trade": -31.97
+    },
+    "oos": {
+      "total_return_pct": -16.82,
+      "num_trades": 90,
+      "win_rate_pct": 27.78,
+      "sharpe_ratio": 2.599,
+      "max_drawdown_pct": -96.86,
+      "profit_factor": 0.564,
+      "final_value": 83183.69,
+      "avg_trade": -186.85
+    },
+    "oos_is_ratio": 1.04,
+    "status": "\u26a0\ufe0f"
+  },
+  "TLT_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 12,
+      "slow": 34,
+      "signal": 9,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 12.64,
+      "num_trades": 65,
+      "win_rate_pct": 41.54,
+      "sharpe_ratio": 2.129,
+      "max_drawdown_pct": -97.41,
+      "profit_factor": 1.278,
+      "final_value": 112635.9,
+      "avg_trade": 194.4
+    },
+    "oos": {
+      "total_return_pct": -26.0,
+      "num_trades": 85,
+      "win_rate_pct": 32.94,
+      "sharpe_ratio": 2.583,
+      "max_drawdown_pct": -98.44,
+      "profit_factor": 0.676,
+      "final_value": 73999.99,
+      "avg_trade": -305.88
+    },
+    "oos_is_ratio": 1.213,
+    "status": "\u26a0\ufe0f"
+  },
+  "TLT_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 30,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -29.34,
+      "num_trades": 148,
+      "win_rate_pct": 22.3,
+      "sharpe_ratio": 3.82,
+      "max_drawdown_pct": -98.27,
+      "profit_factor": 0.513,
+      "final_value": 70660.37,
+      "avg_trade": -198.24
+    },
+    "oos": {
+      "total_return_pct": -46.13,
+      "num_trades": 160,
+      "win_rate_pct": 26.88,
+      "sharpe_ratio": 3.437,
+      "max_drawdown_pct": -98.89,
+      "profit_factor": 0.439,
+      "final_value": 53866.67,
+      "avg_trade": -288.33
+    },
+    "oos_is_ratio": 0.9,
+    "status": "\u274c"
+  },
+  "TLT_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -25.92,
+      "num_trades": 131,
+      "win_rate_pct": 26.72,
+      "sharpe_ratio": 3.54,
+      "max_drawdown_pct": -98.02,
+      "profit_factor": 0.668,
+      "final_value": 74080.78,
+      "avg_trade": -197.86
+    },
+    "oos": {
+      "total_return_pct": -44.39,
+      "num_trades": 162,
+      "win_rate_pct": 28.4,
+      "sharpe_ratio": 2.942,
+      "max_drawdown_pct": -101.36,
+      "profit_factor": 0.564,
+      "final_value": 55607.5,
+      "avg_trade": -274.03
+    },
+    "oos_is_ratio": 0.831,
+    "status": "\u26a0\ufe0f"
+  },
+  "TLT_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 26,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -5.19,
+      "num_trades": 72,
+      "win_rate_pct": 29.17,
+      "sharpe_ratio": 2.677,
+      "max_drawdown_pct": -97.9,
+      "profit_factor": 0.892,
+      "final_value": 94806.75,
+      "avg_trade": -72.13
+    },
+    "oos": {
+      "total_return_pct": -7.49,
+      "num_trades": 95,
+      "win_rate_pct": 33.68,
+      "sharpe_ratio": 2.312,
+      "max_drawdown_pct": -97.67,
+      "profit_factor": 0.908,
+      "final_value": 92510.37,
+      "avg_trade": -78.84
+    },
+    "oos_is_ratio": 0.864,
+    "status": "\u26a0\ufe0f"
+  },
+  "TLT_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 10,
+      "st_mult": 4.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -40.33,
+      "num_trades": 215,
+      "win_rate_pct": 29.3,
+      "sharpe_ratio": 4.82,
+      "max_drawdown_pct": -97.7,
+      "profit_factor": 0.428,
+      "final_value": 59668.6,
+      "avg_trade": -187.59
+    },
+    "oos": {
+      "total_return_pct": -54.47,
+      "num_trades": 251,
+      "win_rate_pct": 39.44,
+      "sharpe_ratio": 4.564,
+      "max_drawdown_pct": -101.29,
+      "profit_factor": 0.444,
+      "final_value": 45534.28,
+      "avg_trade": -216.99
+    },
+    "oos_is_ratio": 0.947,
+    "status": "\u274c"
+  },
+  "GLD_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 8,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 2.5
+    },
+    "is": {
+      "total_return_pct": -12.05,
+      "num_trades": 70,
+      "win_rate_pct": 30.0,
+      "sharpe_ratio": 2.847,
+      "max_drawdown_pct": -97.67,
+      "profit_factor": 0.819,
+      "final_value": 87951.32,
+      "avg_trade": -172.12
+    },
+    "oos": {
+      "total_return_pct": 50.65,
+      "num_trades": 78,
+      "win_rate_pct": 44.87,
+      "sharpe_ratio": 3.005,
+      "max_drawdown_pct": -98.43,
+      "profit_factor": 1.85,
+      "final_value": 150646.56,
+      "avg_trade": 649.31
+    },
+    "oos_is_ratio": 1.055,
+    "status": "\u26a0\ufe0f"
+  },
+  "GLD_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 30,
+      "vol_mult": 1.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -5.53,
+      "num_trades": 150,
+      "win_rate_pct": 33.33,
+      "sharpe_ratio": 3.722,
+      "max_drawdown_pct": -96.84,
+      "profit_factor": 0.923,
+      "final_value": 94466.79,
+      "avg_trade": -36.89
+    },
+    "oos": {
+      "total_return_pct": -21.92,
+      "num_trades": 175,
+      "win_rate_pct": 26.29,
+      "sharpe_ratio": 3.518,
+      "max_drawdown_pct": -98.72,
+      "profit_factor": 0.771,
+      "final_value": 78081.87,
+      "avg_trade": -125.88
+    },
+    "oos_is_ratio": 0.945,
+    "status": "\u26a0\ufe0f"
+  },
+  "GLD_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 20,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 0.43,
+      "num_trades": 122,
+      "win_rate_pct": 36.07,
+      "sharpe_ratio": 3.314,
+      "max_drawdown_pct": -98.23,
+      "profit_factor": 1.005,
+      "final_value": 100426.49,
+      "avg_trade": 3.5
+    },
+    "oos": {
+      "total_return_pct": -36.38,
+      "num_trades": 151,
+      "win_rate_pct": 27.81,
+      "sharpe_ratio": 2.998,
+      "max_drawdown_pct": -99.23,
+      "profit_factor": 0.695,
+      "final_value": 63620.69,
+      "avg_trade": -240.92
+    },
+    "oos_is_ratio": 0.905,
+    "status": "\u26a0\ufe0f"
+  },
+  "GLD_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 22,
+      "s_period": 44,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 8.66,
+      "num_trades": 65,
+      "win_rate_pct": 36.92,
+      "sharpe_ratio": 2.502,
+      "max_drawdown_pct": -97.0,
+      "profit_factor": 1.175,
+      "final_value": 108662.66,
+      "avg_trade": 133.27
+    },
+    "oos": {
+      "total_return_pct": 25.79,
+      "num_trades": 85,
+      "win_rate_pct": 32.94,
+      "sharpe_ratio": 2.446,
+      "max_drawdown_pct": -98.47,
+      "profit_factor": 1.297,
+      "final_value": 125789.96,
+      "avg_trade": 303.41
+    },
+    "oos_is_ratio": 0.978,
+    "status": "\u26a0\ufe0f"
+  },
+  "GLD_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 7,
+      "st_mult": 2.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -33.56,
+      "num_trades": 225,
+      "win_rate_pct": 36.44,
+      "sharpe_ratio": 5.359,
+      "max_drawdown_pct": -97.38,
+      "profit_factor": 0.592,
+      "final_value": 66443.12,
+      "avg_trade": -149.14
+    },
+    "oos": {
+      "total_return_pct": -27.95,
+      "num_trades": 265,
+      "win_rate_pct": 37.36,
+      "sharpe_ratio": 4.705,
+      "max_drawdown_pct": -97.68,
+      "profit_factor": 0.787,
+      "final_value": 72053.28,
+      "avg_trade": -105.81
+    },
+    "oos_is_ratio": 0.878,
+    "status": "\u26a0\ufe0f"
+  },
+  "USO_macd": {
+    "strategy": "MACD Momentum",
+    "params": {
+      "fast": 12,
+      "slow": 21,
+      "signal": 7,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": -16.66,
+      "num_trades": 64,
+      "win_rate_pct": 37.5,
+      "sharpe_ratio": 1.151,
+      "max_drawdown_pct": -103.25,
+      "profit_factor": 0.862,
+      "final_value": 83336.5,
+      "avg_trade": -260.37
+    },
+    "oos": {
+      "total_return_pct": -50.03,
+      "num_trades": 84,
+      "win_rate_pct": 33.33,
+      "sharpe_ratio": 1.486,
+      "max_drawdown_pct": -103.58,
+      "profit_factor": 0.739,
+      "final_value": 49968.24,
+      "avg_trade": -595.62
+    },
+    "oos_is_ratio": 1.291,
+    "status": "\u26a0\ufe0f"
+  },
+  "USO_vol_exp": {
+    "strategy": "Volatility Expansion",
+    "params": {
+      "lookback": 14,
+      "vol_mult": 1.5,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": 6.38,
+      "num_trades": 61,
+      "win_rate_pct": 31.15,
+      "sharpe_ratio": 0.978,
+      "max_drawdown_pct": -100.45,
+      "profit_factor": 1.082,
+      "final_value": 106378.62,
+      "avg_trade": 104.57
+    },
+    "oos": {
+      "total_return_pct": 96.72,
+      "num_trades": 61,
+      "win_rate_pct": 47.54,
+      "sharpe_ratio": 1.473,
+      "max_drawdown_pct": -98.35,
+      "profit_factor": 1.953,
+      "final_value": 196723.23,
+      "avg_trade": 1585.63
+    },
+    "oos_is_ratio": 1.506,
+    "status": "\u26a0\ufe0f"
+  },
+  "USO_adx": {
+    "strategy": "ADX Trend",
+    "params": {
+      "adx_period": 7,
+      "adx_threshold": 20,
+      "ema_period": 50,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -37.67,
+      "num_trades": 109,
+      "win_rate_pct": 33.03,
+      "sharpe_ratio": 1.282,
+      "max_drawdown_pct": -101.44,
+      "profit_factor": 0.824,
+      "final_value": 62334.1,
+      "avg_trade": -345.56
+    },
+    "oos": {
+      "total_return_pct": -61.72,
+      "num_trades": 140,
+      "win_rate_pct": 28.57,
+      "sharpe_ratio": 2.287,
+      "max_drawdown_pct": -102.52,
+      "profit_factor": 0.753,
+      "final_value": 38279.57,
+      "avg_trade": -441.26
+    },
+    "oos_is_ratio": 1.784,
+    "status": "\u26a0\ufe0f"
+  },
+  "USO_ichimoku": {
+    "strategy": "Ichimoku Cloud",
+    "params": {
+      "t_period": 7,
+      "k_period": 22,
+      "s_period": 44,
+      "atr_mult": 2.0
+    },
+    "is": {
+      "total_return_pct": 2.58,
+      "num_trades": 50,
+      "win_rate_pct": 36.0,
+      "sharpe_ratio": 0.199,
+      "max_drawdown_pct": -101.33,
+      "profit_factor": 1.016,
+      "final_value": 102580.75,
+      "avg_trade": 51.61
+    },
+    "oos": {
+      "total_return_pct": -62.35,
+      "num_trades": 89,
+      "win_rate_pct": 21.35,
+      "sharpe_ratio": 1.294,
+      "max_drawdown_pct": -102.5,
+      "profit_factor": 0.601,
+      "final_value": 37646.99,
+      "avg_trade": -700.6
+    },
+    "oos_is_ratio": 6.503,
+    "status": "\u26a0\ufe0f"
+  },
+  "USO_supertrend": {
+    "strategy": "Supertrend+Vol",
+    "params": {
+      "st_period": 10,
+      "st_mult": 2.0,
+      "atr_mult": 1.5
+    },
+    "is": {
+      "total_return_pct": -17.96,
+      "num_trades": 207,
+      "win_rate_pct": 46.38,
+      "sharpe_ratio": 2.961,
+      "max_drawdown_pct": -100.51,
+      "profit_factor": 0.905,
+      "final_value": 82040.12,
+      "avg_trade": -86.76
+    },
+    "oos": {
+      "total_return_pct": -55.17,
+      "num_trades": 254,
+      "win_rate_pct": 37.4,
+      "sharpe_ratio": 3.882,
+      "max_drawdown_pct": -106.99,
+      "profit_factor": 0.723,
+      "final_value": 44825.6,
+      "avg_trade": -217.22
+    },
+    "oos_is_ratio": 1.311,
+    "status": "\u26a0\ufe0f"
+  }
+}

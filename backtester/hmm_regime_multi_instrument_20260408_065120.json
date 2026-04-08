@@ -1,0 +1,103 @@
+{
+  "strategy": "HMM Regime Filter",
+  "timeframe": "H4",
+  "generated_at": "2026-04-08 06:51:20 UTC",
+  "results": {
+    "BTC_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0,
+      "error": "single positional indexer is out-of-bounds"
+    },
+    "XAU_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0,
+      "error": "single positional indexer is out-of-bounds"
+    },
+    "BCO_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0,
+      "error": "single positional indexer is out-of-bounds"
+    },
+    "USD_TRY": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0,
+      "error": "single positional indexer is out-of-bounds"
+    },
+    "NAS100_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0,
+      "error": "single positional indexer is out-of-bounds"
+    },
+    "XAG_USD": {
+      "total_return": 0.0,
+      "annual_return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0,
+      "max_dd": 0.0,
+      "error": "single positional indexer is out-of-bounds"
+    }
+  },
+  "summary": {
+    "best_instrument": "N/A",
+    "worst_instrument": "N/A",
+    "avg_sharpe": 0.0,
+    "avg_win_rate": 0.0,
+    "total_trades": 0,
+    "passing_instruments": [],
+    "failing_instruments": [
+      "BTC_USD",
+      "XAU_USD",
+      "BCO_USD",
+      "USD_TRY",
+      "NAS100_USD",
+      "XAG_USD"
+    ]
+  },
+  "errors": [
+    {
+      "instrument": "BTC_USD",
+      "error": "single positional indexer is out-of-bounds"
+    },
+    {
+      "instrument": "XAU_USD",
+      "error": "single positional indexer is out-of-bounds"
+    },
+    {
+      "instrument": "BCO_USD",
+      "error": "single positional indexer is out-of-bounds"
+    },
+    {
+      "instrument": "USD_TRY",
+      "error": "single positional indexer is out-of-bounds"
+    },
+    {
+      "instrument": "NAS100_USD",
+      "error": "single positional indexer is out-of-bounds"
+    },
+    {
+      "instrument": "XAG_USD",
+      "error": "single positional indexer is out-of-bounds"
+    }
+  ]
+}
