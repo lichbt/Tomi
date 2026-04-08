@@ -1,0 +1,19 @@
+PORTFOLIO BACKTEST REPORT: RISK MODEL = BREAKEVEN
+================================================================================
+Period: 2015-01-01 to 2025-12-31
+Initial Capital: $100,000.00
+Final Portfolio Value: $0.00
+
+--- Performance ---
+Total Return: nan%
+Annualized Return: nan%
+Sharpe Ratio: 0.000
+Max Drawdown: 0.00%
+Calmar Ratio: 0.000
+
+Instruments tested: 4
+Weights: BTC_USD(26.0%), XAG_USD(18.0%), NAS100_USD(15.5%), XAU_USD(12.2%)
+
+Outputs:
+  JSON: /Users/lich/.openclaw/workspace-allocator/backtest_results/portfolio_breakeven_20260407_105529.json
+  TXT: /Users/lich/.openclaw/workspace-allocator/backtest_results/portfolio_breakeven_20260407_105529.txt

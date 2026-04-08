@@ -1,1 +1,1 @@
-/Users/lich/.openclaw/SHARED/research/research_log.md
+/Users/lich/.openclaw/workspace/shared/research/research_log.md

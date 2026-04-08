@@ -1,0 +1,28 @@
+{
+  "risk_model": "baseline",
+  "start_date": "2015-01-01",
+  "end_date": "2025-12-31",
+  "initial_capital": 100000.0,
+  "final_portfolio_value": 0.0,
+  "total_return_pct": NaN,
+  "annualized_return_pct": NaN,
+  "sharpe_ratio": 0.0,
+  "max_drawdown_pct": 0.0,
+  "calmar_ratio": 0.0,
+  "instruments": [
+    "BTC_USD",
+    "XAG_USD",
+    "NAS100_USD",
+    "USD_TRY",
+    "BCO_USD",
+    "XAU_USD"
+  ],
+  "weights": {
+    "donchian:BTC_USD:H4": 0.26,
+    "st_vol:XAG_USD:H4": 0.18,
+    "ichimoku:NAS100_USD:H4": 0.155,
+    "adx:USD_TRY:H4": 0.155,
+    "volatility:BCO_USD:H4": 0.128,
+    "macd:XAU_USD:H4": 0.122
+  }
+}

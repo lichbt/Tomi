@@ -1,0 +1,26 @@
+[
+  {
+    "risk_model": "baseline",
+    "total_return_pct": NaN,
+    "annualized_return_pct": NaN,
+    "sharpe_ratio": 0.0,
+    "max_drawdown_pct": 0.0,
+    "calmar_ratio": 0.0
+  },
+  {
+    "risk_model": "breakeven",
+    "total_return_pct": NaN,
+    "annualized_return_pct": NaN,
+    "sharpe_ratio": 0.0,
+    "max_drawdown_pct": 0.0,
+    "calmar_ratio": 0.0
+  },
+  {
+    "risk_model": "percent_trail",
+    "total_return_pct": NaN,
+    "annualized_return_pct": NaN,
+    "sharpe_ratio": 0.0,
+    "max_drawdown_pct": 0.0,
+    "calmar_ratio": 0.0
+  }
+]

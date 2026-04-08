@@ -1,0 +1,80 @@
+{
+  "strategy": "HMM Regime Filter",
+  "timeframe": "D",
+  "period": "2023-01-01 to 2026-01-01",
+  "generated_at": "2026-04-08 06:52:54 UTC",
+  "results": {
+    "XAU_USD": {
+      "total_return": 38.67,
+      "annual_return": 11.23,
+      "sharpe": 0.901,
+      "win_rate": 53.7,
+      "trades": 30,
+      "max_dd": -11.86,
+      "bar_count": 774
+    },
+    "XAG_USD": {
+      "total_return": 114.24,
+      "annual_return": 28.16,
+      "sharpe": 1.163,
+      "win_rate": 54.1,
+      "trades": 33,
+      "max_dd": -40.57,
+      "bar_count": 774
+    },
+    "BCO_USD": {
+      "total_return": 42.31,
+      "annual_return": 12.14,
+      "sharpe": 0.628,
+      "win_rate": 51.9,
+      "trades": 32,
+      "max_dd": -31.75,
+      "bar_count": 776
+    },
+    "BTC_USD": {
+      "total_return": -51.65,
+      "annual_return": -20.92,
+      "sharpe": -0.237,
+      "win_rate": 47.7,
+      "trades": 29,
+      "max_dd": -66.55,
+      "bar_count": 780
+    },
+    "NAS100_USD": {
+      "total_return": -19.36,
+      "annual_return": -6.76,
+      "sharpe": -0.348,
+      "win_rate": 46.0,
+      "trades": 33,
+      "max_dd": -23.12,
+      "bar_count": 775
+    },
+    "USD_TRY": {
+      "total_return": -18.98,
+      "annual_return": -6.64,
+      "sharpe": -1.133,
+      "win_rate": 37.0,
+      "trades": 10,
+      "max_dd": -19.91,
+      "bar_count": 772
+    }
+  },
+  "summary": {
+    "best_instrument": "XAG_USD",
+    "worst_instrument": "USD_TRY",
+    "avg_sharpe": 0.162,
+    "avg_win_rate": 48.4,
+    "total_trades": 167,
+    "passing_instruments": [
+      "XAU_USD",
+      "XAG_USD",
+      "BCO_USD"
+    ],
+    "failing_instruments": [
+      "BTC_USD",
+      "NAS100_USD",
+      "USD_TRY"
+    ]
+  },
+  "errors": []
+}
