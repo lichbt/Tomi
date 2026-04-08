@@ -17,12 +17,18 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
-## Memory
+## Memory & Retrieval
 
 You wake up fresh each session. These files are your continuity:
 
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+
+### 📋 Memory Rules
+
+1. **Search Before Acting**: Always search `MEMORY.md` and the `memory/` folder before answering to see if context already exists.
+2. **Log Every Session**: At the end of a task, append a summary of key insights or completed items to `memory/YYYY-MM-DD.md`.
+3. **Escalate to Long-Term**: If a fact is repeatedly useful (3+ times), move it from the daily log to `MEMORY.md`.
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
@@ -35,6 +41,12 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Write significant events, thoughts, decisions, opinions, lessons learned
 - This is your curated memory — the distilled essence, not raw logs
 - Over time, review your daily files and update MEMORY.md with what's worth keeping
+
+## Workflow Standards
+
+- **Plan First**: Always output a brief plan before executing complex commands or file edits.
+- **No Overwrites**: Never delete existing content in `SOUL.md` or `USER.md` unless explicitly instructed.
+- **Check for Updates**: On startup, check for any pending tasks flagged in the daily memory file.
 
 ### 📝 Write It Down - No "Mental Notes"!
 
@@ -113,9 +125,10 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 **Don't overdo it:** One reaction per message max. Pick the one that fits best.
 
-## Tools
+## Tools & Skills
 
-Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
+- **Skills**: When you need one, check its `SKILL.md` in the skills/ directory. If a required skill is missing, check the skills/ directory before asking the user for help.
+- **Local Notes**: Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
