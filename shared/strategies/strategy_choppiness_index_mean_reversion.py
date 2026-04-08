@@ -4,7 +4,7 @@ Source: QuantifiedStrategies (https://www.quantifiedstrategies.com/choppiness-in
 Author: Tomi (Pipeline Manager) - direct implementation to unblock pipeline
 
 Entry Conditions:
-- Long: CHOP > 61.8, RSI < 30, ADX < 25
+- Long: CHOP < 38.2, RSI < 30, ADX < 25  (corrected from original QS source)
 - Short: CHOP > 61.8, RSI > 70, ADX < 25
 
 Exit Conditions:
@@ -53,7 +53,7 @@ def strategy_choppiness_index_mean_reversion(df: pd.DataFrame) -> pd.Series:
     rsi = ta.rsi(df['close'], 14)
 
     # --- Entry Conditions ---
-    long_entry = (chop > 61.8) & (rsi < 30) & (adx < 25)
+    long_entry = (chop < 38.2) & (rsi < 30) & (adx < 25)
     short_entry = (chop > 61.8) & (rsi > 70) & (adx < 25)
 
     # --- Exit Conditions ---

@@ -1,57 +1,90 @@
-# SHARED Memory — Cross-Agent Institutional Knowledge
+# ❄️ COLD Memory — Long-Term Archive
 
-> All agents contribute to this memory. This is what "institutional knowledge" looks like.
+> Historical decisions, milestones, distilled lessons. Updated during archival phases.
 
-## Key Learnings
+---
 
-### What Works
-- Kelly weighting over uniform risk allocation (Sharpe improvement: 1.546 → 2.032)
-- Daily timeframe consistently outperforms H4 across strategies
-- Mean reversion fails on H4 due to costs; only trend-following survives
-- Portfolio naturally diversifies: avg 2.25 concurrent positions
+## 🏆 Key Achievements (2026)
 
-### What Doesn't Work
-- Overly complex strategies with >4 indicators (overfitting)
-- Pure mean reversion without trend filter on H4
-- Insufficient sample size (<50 trades) for validation
+### Pipeline Established
+- Full strategy pipeline: Research → Code → Backtest → Validate → Deploy
+- 44 strategies in shared/strategies/
+- Kelly-weighted portfolio v13 deployed
+- Live positions: BCO_USD, XAU_USD
 
-### Strategy Categories That Work
-1. Trend-following on Daily timeframe
-2. Volatility expansion on H4
-3. Regime-based switching (HMM/ADX)
-4. Supertrend variants with volume confirmation
+### Architecture Evolution
+- **2026-04-08:** Unified workspace/ with shared/ folder
+  - All agents now symlink to shared/ for work files
+  - Removed alpha-hunter and coder crons (now manual trigger)
+  - All cron jobs use free models
 
-## Validated Strategies (Production Ready)
-## Key Decisions
-- **Kelly weighting** over uniform risk allocation (Sharpe improvement: 1.546 → 2.032)
-- **Risk-per-trade** sizing preferred for small account compounding
-- **Daily timeframe** consistently outperforms H4 across strategies
-- **Mean reversion** fails on H4 due to costs; only trend-following survives
-- **Portfolio naturally diversifies:** avg 2.25 concurrent positions, <0.3% chance of 6 concurrent
+---
 
-## Current State (2026-04-06)
-- **Executioner:** Functional, Oanda connection OK, deployed BCO and XAU positions live per user update
-- **Allocator:** Manages Kelly weights and portfolio composition
-- **Backtester:** Comprehensive backtest framework with Oanda real data
-- **Coder:** Strategy development and validation pipeline mature
-- **Alpha-hunter:** Agent template created, needs system prompt configuration
-- **Backup:** Daily cron job at 4:30am configured and running
+## 📊 Strategy Performance Learnings
 
-## Live Positions (User Update 16:11-16:12 GMT+7)
-- **BCO_USD** - Volatility Expansion strategy (H4)
-- **XAU_USD** - MACD Momentum strategy (Daily)
-- **Executioner confirmed working** - live deployment successful post-weekend
+### What Works ✅
+| Strategy | Timeframe | Instruments | Sharpe | Notes |
+|----------|-----------|-------------|--------|-------|
+| Elder's Impulse | Daily | XAU_USD | 1.545 | Best performer |
+| Choppiness Index MR | Daily | NAS100_USD | 0.914 | |
+| Elder's Impulse | Daily | XAG_USD | 0.619 | |
+| FRAMA | H4 | EURUSD | Mixed | Currently backtesting |
 
-## Open Tasks
-- Monitor live positions via executioner logs
-- Wait for Coder Agent to code Choppiness Index Mean Reversion strategy
-- Verify cron job execution and outputs
-- Ensure backup push to GitHub works correctly
-- Consider deploying additional strategies from the 6-strategy portfolio
+### What Failed ❌
+- Pure mean reversion on H4 (costs eat profits)
+- Strategies with >4 indicators (overfitting)
+- Strategies with <50 trades (insufficient sample)
+- BTC_USD Elder Impulse (Sharpe -0.99, DD -48.5%)
 
-## 2026-04-06 - Daily Summary
-- Fixed 6 failing cron jobs (rate limit errors) - removed and recreated with proper scheduling
-- Verified executioner agent functionality from April 4 log (weekend deployment failure expected)
-- Confirmed BCO and XAU positions are live per user 16:11 GMT+7 update
-- Delegated Choppiness Index Mean Reversion strategy coding to Coder Agent (prototype file removed per orchestrator role)
-- All cron jobs now idle and scheduled: portfolio check every 4h, midnight pipeline, daily backup (4:30am), morning report (6:30am), daily portfolio report (8:00am), weekly report (Mondays 9:00am), memory dreaming (3:00am)
+### Portfolio Insights
+- Kelly weighting: Sharpe 1.546 → 2.032 (+31%)
+- Average 2.25 concurrent positions
+- Daily timeframe outperforms H4
+- Mean reversion only works with trend filter
+
+---
+
+## 🎓 Distilled Wisdom
+
+### On Strategy Design
+1. Every strategy needs a trend filter (EMA, ADX, etc.)
+2. Every strategy needs a momentum confirmation
+3. Max 4 indicators to avoid overfitting
+4. Use .shift(1) to avoid lookahead bias
+
+### On Backtesting
+1. IS/OOS ratio < 0.4 = overfitted
+2. MC ruin > 5% = reject
+3. Sharpe < 1.5 + p-value > 0.05 = reject
+4. < 50 trades = insufficient sample
+
+### On Portfolio
+1. Kelly weighting > uniform risk
+2. Correlations < 0.7 between positions
+3. Max 30% in any sector
+4. Rebalance when positions drift > 20%
+
+---
+
+## 📅 Major Decision Log
+
+| Date | Decision | Outcome |
+|------|----------|---------|
+| 2026-04-01 | Deploy Kelly-weighted portfolio v13 | Live, working |
+| 2026-04-06 | Remove failing cron jobs, consolidate to free models | Done |
+| 2026-04-08 | Create unified workspace/shared/ architecture | Done |
+| 2026-04-08 | Remove alpha-hunter/coder crons | Done |
+| 2026-04-08 | Set up memory tiering (HOT/WARM/COLD) | Done |
+
+---
+
+## 🔮 Active Projects
+
+- Monitoring live positions (BCO_USD, XAU_USD)
+- Pending: Telegram bot re-add to group
+- Pending: Test new HEARTBEAT schedule (8AM/12PM/6PM)
+- Pending: First weekly memory distillation (Sunday)
+
+---
+
+*Last updated: 2026-04-08*
