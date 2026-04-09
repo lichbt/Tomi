@@ -1,0 +1,76 @@
+{
+  "strategy": "cointegration",
+  "timeframe": "H4",
+  "generated_at": "2026-04-08 15:15:06 UTC",
+  "results": {
+    "BTC_USD": {
+      "total_return": -8.07,
+      "annual_return": -7.24,
+      "sharpe": -0.055,
+      "win_rate": 51.6,
+      "trades": 23,
+      "max_dd": -32.62,
+      "bar_count": 1694
+    },
+    "XAU_USD": {
+      "total_return": -10.86,
+      "annual_return": -9.88,
+      "sharpe": -0.311,
+      "win_rate": 46.9,
+      "trades": 20,
+      "max_dd": -29.49,
+      "bar_count": 1671
+    },
+    "BCO_USD": {
+      "total_return": -20.01,
+      "annual_return": -18.27,
+      "sharpe": -0.225,
+      "win_rate": 49.9,
+      "trades": 26,
+      "max_dd": -45.49,
+      "bar_count": 1673
+    },
+    "NAS100_USD": {
+      "total_return": 3.97,
+      "annual_return": 3.57,
+      "sharpe": 0.204,
+      "win_rate": 48.9,
+      "trades": 28,
+      "max_dd": -19.36,
+      "bar_count": 1679
+    },
+    "XAG_USD": {
+      "total_return": -43.07,
+      "annual_return": -39.93,
+      "sharpe": -0.747,
+      "win_rate": 44.8,
+      "trades": 20,
+      "max_dd": -62.93,
+      "bar_count": 1671
+    },
+    "USD_TRY": {
+      "total_return": -13.95,
+      "annual_return": -17.55,
+      "sharpe": -6.536,
+      "win_rate": 45.6,
+      "trades": 2,
+      "max_dd": -14.05,
+      "bar_count": 1177
+    }
+  },
+  "summary": {
+    "best_instrument": "NAS100_USD",
+    "worst_instrument": "USD_TRY",
+    "avg_sharpe": -1.278,
+    "passing_instruments": [],
+    "failing_instruments": [
+      "BTC_USD",
+      "XAU_USD",
+      "BCO_USD",
+      "NAS100_USD",
+      "XAG_USD",
+      "USD_TRY"
+    ],
+    "total_trades": 119
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Kalman Filter MR": {
+    "results": [
+      {
+        "instrument": "BCO_USD",
+        "total_return": 44.9,
+        "annual_return": 17.31,
+        "sharpe": 45.678,
+        "max_dd": -52.63,
+        "n_trades": 67,
+        "win_rate": 647.8
+      },
+      {
+        "instrument": "BTC_USD",
+        "total_return": -64.06,
+        "annual_return": -35.46,
+        "sharpe": -57.357,
+        "max_dd": -72.89,
+        "n_trades": 49,
+        "win_rate": 828.6
+      },
+      {
+        "instrument": "NAS100_USD",
+        "total_return": -33.71,
+        "annual_return": -16.22,
+        "sharpe": -68.189,
+        "max_dd": -43.47,
+        "n_trades": 47,
+        "win_rate": 866.0
+      },
+      {
+        "instrument": "USD_TRY",
+        "total_return": -57.96,
+        "annual_return": -31.22,
+        "sharpe": -229.725,
+        "max_dd": -58.37,
+        "n_trades": 13,
+        "win_rate": 2046.2
+      },
+      {
+        "instrument": "XAG_USD",
+        "total_return": 1.38,
+        "annual_return": 0.59,
+        "sharpe": 1.269,
+        "max_dd": -69.29,
+        "n_trades": 59,
+        "win_rate": 705.1
+      },
+      {
+        "instrument": "XAU_USD",
+        "total_return": -30.27,
+        "annual_return": -14.41,
+        "sharpe": -63.874,
+        "max_dd": -46.78,
+        "n_trades": 47,
+        "win_rate": 868.1
+      }
+    ],
+    "summary": {
+      "avg_sharpe": -62.033,
+      "avg_return": -23.29,
+      "avg_dd": -57.24,
+      "total_trades": 282,
+      "avg_win_rate": 993.6,
+      "pass_count": 2
+    }
+  },
+  "RSI(2) Connors": {
+    "results": [
+      {
+        "instrument": "BCO_USD",
+        "total_return": -6.28,
+        "annual_return": -2.75,
+        "sharpe": -10.036,
+        "max_dd": -38.31,
+        "n_trades": 202,
+        "win_rate": 85.1
+      },
+      {
+        "instrument": "BTC_USD",
+        "total_return": 37.04,
+        "annual_return": 14.44,
+        "sharpe": 46.523,
+        "max_dd": -29.06,
+        "n_trades": 154,
+        "win_rate": 79.9
+      },
+      {
+        "instrument": "NAS100_USD",
+        "total_return": 18.93,
+        "annual_return": 7.75,
+        "sharpe": 54.815,
+        "max_dd": -14.03,
+        "n_trades": 163,
+        "win_rate": 100.0
+      },
+      {
+        "instrument": "USD_TRY",
+        "total_return": 7.13,
+        "annual_return": 3.02,
+        "sharpe": 113.657,
+        "max_dd": -2.3,
+        "n_trades": 95,
+        "win_rate": 66.3
+      },
+      {
+        "instrument": "XAG_USD",
+        "total_return": 73.26,
+        "annual_return": 26.76,
+        "sharpe": 102.846,
+        "max_dd": -19.57,
+        "n_trades": 120,
+        "win_rate": 100.8
+      },
+      {
+        "instrument": "XAU_USD",
+        "total_return": 51.04,
+        "annual_return": 19.47,
+        "sharpe": 149.395,
+        "max_dd": -12.57,
+        "n_trades": 150,
+        "win_rate": 96.7
+      }
+    ],
+    "summary": {
+      "avg_sharpe": 76.2,
+      "avg_return": 30.19,
+      "avg_dd": -19.31,
+      "total_trades": 884,
+      "avg_win_rate": 88.1,
+      "pass_count": 5
+    }
+  },
+  "ATR-Scaled MR": {
+    "results": [
+      {
+        "instrument": "BCO_USD",
+        "total_return": -0.01,
+        "annual_return": -0.01,
+        "sharpe": -0.023,
+        "max_dd": -48.6,
+        "n_trades": 142,
+        "win_rate": 119.7
+      },
+      {
+        "instrument": "BTC_USD",
+        "total_return": -14.95,
+        "annual_return": -6.69,
+        "sharpe": -23.41,
+        "max_dd": -44.6,
+        "n_trades": 83,
+        "win_rate": 118.1
+      },
+      {
+        "instrument": "NAS100_USD",
+        "total_return": 38.09,
+        "annual_return": 14.9,
+        "sharpe": 97.66,
+        "max_dd": -16.53,
+        "n_trades": 93,
+        "win_rate": 109.7
+      },
+      {
+        "instrument": "USD_TRY",
+        "total_return": -0.01,
+        "annual_return": -0.0,
+        "sharpe": -5.69090916585515e+18,
+        "max_dd": -0.01,
+        "n_trades": 1,
+        "win_rate": 0.0
+      },
+      {
+        "instrument": "XAG_USD",
+        "total_return": 32.59,
+        "annual_return": 12.94,
+        "sharpe": 56.211,
+        "max_dd": -19.57,
+        "n_trades": 44,
+        "win_rate": 115.9
+      },
+      {
+        "instrument": "XAU_USD",
+        "total_return": 3.21,
+        "annual_return": 1.37,
+        "sharpe": 10.147,
+        "max_dd": -25.95,
+        "n_trades": 115,
+        "win_rate": 136.5
+      }
+    ],
+    "summary": {
+      "avg_sharpe": -9.484848609758583e+17,
+      "avg_return": 9.82,
+      "avg_dd": -25.88,
+      "total_trades": 478,
+      "avg_win_rate": 100.0,
+      "pass_count": 3
+    }
+  }
+}

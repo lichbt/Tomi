@@ -1,0 +1,632 @@
+{
+  "Kalman Filter MR": {
+    "results": [
+      {
+        "instrument": "AUD_JPY",
+        "total_return": 2.61,
+        "annual_return": 0.6,
+        "sharpe": 4.421,
+        "max_dd": -26.37,
+        "n_trades": 586,
+        "win_rate": 796.1,
+        "n_long": 4023,
+        "n_short": 5353
+      },
+      {
+        "instrument": "AUD_USD",
+        "total_return": 15.72,
+        "annual_return": 3.47,
+        "sharpe": 27.215,
+        "max_dd": -22.16,
+        "n_trades": 592,
+        "win_rate": 794.4,
+        "n_long": 4528,
+        "n_short": 4842
+      },
+      {
+        "instrument": "BCO_USD",
+        "total_return": -49.86,
+        "annual_return": -14.96,
+        "sharpe": -30.792,
+        "max_dd": -68.82,
+        "n_trades": 595,
+        "win_rate": 793.9,
+        "n_long": 4106,
+        "n_short": 5216
+      },
+      {
+        "instrument": "BTC_USD",
+        "total_return": -79.51,
+        "annual_return": -31.18,
+        "sharpe": -43.863,
+        "max_dd": -93.42,
+        "n_trades": 550,
+        "win_rate": 847.3,
+        "n_long": 4389,
+        "n_short": 4893
+      },
+      {
+        "instrument": "ETH_USD",
+        "total_return": -86.59,
+        "annual_return": -37.44,
+        "sharpe": -40.737,
+        "max_dd": -92.9,
+        "n_trades": 602,
+        "win_rate": 778.1,
+        "n_long": 4453,
+        "n_short": 4922
+      },
+      {
+        "instrument": "EUR_GBP",
+        "total_return": 28.14,
+        "annual_return": 5.96,
+        "sharpe": 81.011,
+        "max_dd": -6.92,
+        "n_trades": 599,
+        "win_rate": 789.1,
+        "n_long": 4975,
+        "n_short": 4395
+      },
+      {
+        "instrument": "EUR_JPY",
+        "total_return": -14.17,
+        "annual_return": -3.51,
+        "sharpe": -32.824,
+        "max_dd": -26.39,
+        "n_trades": 545,
+        "win_rate": 861.8,
+        "n_long": 4061,
+        "n_short": 5307
+      },
+      {
+        "instrument": "EUR_USD",
+        "total_return": -21.59,
+        "annual_return": -5.52,
+        "sharpe": -60.601,
+        "max_dd": -26.0,
+        "n_trades": 569,
+        "win_rate": 826.4,
+        "n_long": 4687,
+        "n_short": 4683
+      },
+      {
+        "instrument": "GBP_JPY",
+        "total_return": -14.96,
+        "annual_return": -3.71,
+        "sharpe": -31.333,
+        "max_dd": -33.74,
+        "n_trades": 552,
+        "win_rate": 839.9,
+        "n_long": 3944,
+        "n_short": 5425
+      },
+      {
+        "instrument": "GBP_USD",
+        "total_return": -0.34,
+        "annual_return": -0.08,
+        "sharpe": -0.748,
+        "max_dd": -24.74,
+        "n_trades": 567,
+        "win_rate": 832.5,
+        "n_long": 4591,
+        "n_short": 4779
+      },
+      {
+        "instrument": "NAS100_USD",
+        "total_return": -6.16,
+        "annual_return": -2.97,
+        "sharpe": -12.312,
+        "max_dd": -31.77,
+        "n_trades": 263,
+        "win_rate": 852.9,
+        "n_long": 1813,
+        "n_short": 2802
+      },
+      {
+        "instrument": "NATGAS_USD",
+        "total_return": -77.9,
+        "annual_return": -29.93,
+        "sharpe": -39.653,
+        "max_dd": -94.51,
+        "n_trades": 529,
+        "win_rate": 851.4,
+        "n_long": 4618,
+        "n_short": 4669
+      },
+      {
+        "instrument": "NZD_USD",
+        "total_return": 45.89,
+        "annual_return": 9.22,
+        "sharpe": 72.93,
+        "max_dd": -18.08,
+        "n_trades": 576,
+        "win_rate": 816.7,
+        "n_long": 4725,
+        "n_short": 4649
+      },
+      {
+        "instrument": "USD_CAD",
+        "total_return": 18.62,
+        "annual_return": 4.07,
+        "sharpe": 51.398,
+        "max_dd": -12.11,
+        "n_trades": 587,
+        "win_rate": 791.3,
+        "n_long": 4698,
+        "n_short": 4672
+      },
+      {
+        "instrument": "USD_CHF",
+        "total_return": -9.37,
+        "annual_return": -2.27,
+        "sharpe": -24.435,
+        "max_dd": -22.29,
+        "n_trades": 597,
+        "win_rate": 783.6,
+        "n_long": 4695,
+        "n_short": 4675
+      },
+      {
+        "instrument": "USD_TRY",
+        "total_return": -80.36,
+        "annual_return": -33.19,
+        "sharpe": -138.22,
+        "max_dd": -80.47,
+        "n_trades": 392,
+        "win_rate": 1008.9,
+        "n_long": 2003,
+        "n_short": 6826
+      },
+      {
+        "instrument": "XAG_USD",
+        "total_return": -78.96,
+        "annual_return": -30.69,
+        "sharpe": -71.562,
+        "max_dd": -85.67,
+        "n_trades": 567,
+        "win_rate": 805.1,
+        "n_long": 4193,
+        "n_short": 5112
+      },
+      {
+        "instrument": "XAU_USD",
+        "total_return": -52.98,
+        "annual_return": -16.26,
+        "sharpe": -80.512,
+        "max_dd": -62.11,
+        "n_trades": 546,
+        "win_rate": 826.9,
+        "n_long": 4076,
+        "n_short": 5229
+      }
+    ],
+    "summary": {
+      "avg_sharpe": -20.59,
+      "avg_return": -25.65,
+      "avg_dd": -46.03,
+      "total_trades": 9814,
+      "avg_win_rate": 827.6,
+      "pass_count": 5
+    }
+  },
+  "RSI(2) Connors": {
+    "results": [
+      {
+        "instrument": "AUD_JPY",
+        "total_return": -30.74,
+        "annual_return": -8.22,
+        "sharpe": -85.191,
+        "max_dd": -37.42,
+        "n_trades": 2416,
+        "win_rate": 92.0,
+        "n_long": 2709,
+        "n_short": 1759
+      },
+      {
+        "instrument": "AUD_USD",
+        "total_return": 12.5,
+        "annual_return": 2.79,
+        "sharpe": 31.009,
+        "max_dd": -16.1,
+        "n_trades": 2455,
+        "win_rate": 96.3,
+        "n_long": 2534,
+        "n_short": 2080
+      },
+      {
+        "instrument": "BCO_USD",
+        "total_return": 11.46,
+        "annual_return": 2.58,
+        "sharpe": 8.639,
+        "max_dd": -60.26,
+        "n_trades": 2351,
+        "win_rate": 99.9,
+        "n_long": 2091,
+        "n_short": 2535
+      },
+      {
+        "instrument": "BTC_USD",
+        "total_return": -54.04,
+        "annual_return": -16.75,
+        "sharpe": -36.451,
+        "max_dd": -78.74,
+        "n_trades": 2384,
+        "win_rate": 96.9,
+        "n_long": 2294,
+        "n_short": 2227
+      },
+      {
+        "instrument": "ETH_USD",
+        "total_return": 244.28,
+        "annual_return": 33.45,
+        "sharpe": 52.269,
+        "max_dd": -74.78,
+        "n_trades": 2327,
+        "win_rate": 101.3,
+        "n_long": 2259,
+        "n_short": 2259
+      },
+      {
+        "instrument": "EUR_GBP",
+        "total_return": -31.42,
+        "annual_return": -8.43,
+        "sharpe": -172.092,
+        "max_dd": -31.6,
+        "n_trades": 2517,
+        "win_rate": 91.8,
+        "n_long": 2234,
+        "n_short": 2515
+      },
+      {
+        "instrument": "EUR_JPY",
+        "total_return": -37.02,
+        "annual_return": -10.24,
+        "sharpe": -134.191,
+        "max_dd": -38.95,
+        "n_trades": 2408,
+        "win_rate": 96.6,
+        "n_long": 2945,
+        "n_short": 1665
+      },
+      {
+        "instrument": "EUR_USD",
+        "total_return": -8.13,
+        "annual_return": -1.96,
+        "sharpe": -30.671,
+        "max_dd": -15.63,
+        "n_trades": 2470,
+        "win_rate": 95.4,
+        "n_long": 2189,
+        "n_short": 2459
+      },
+      {
+        "instrument": "GBP_JPY",
+        "total_return": -43.11,
+        "annual_return": -12.34,
+        "sharpe": -142.076,
+        "max_dd": -45.71,
+        "n_trades": 2441,
+        "win_rate": 93.5,
+        "n_long": 2743,
+        "n_short": 1837
+      },
+      {
+        "instrument": "GBP_USD",
+        "total_return": -18.45,
+        "annual_return": -4.65,
+        "sharpe": -64.346,
+        "max_dd": -21.77,
+        "n_trades": 2455,
+        "win_rate": 95.2,
+        "n_long": 2387,
+        "n_short": 2259
+      },
+      {
+        "instrument": "NAS100_USD",
+        "total_return": -5.96,
+        "annual_return": -2.87,
+        "sharpe": -16.695,
+        "max_dd": -24.96,
+        "n_trades": 1160,
+        "win_rate": 93.9,
+        "n_long": 1297,
+        "n_short": 876
+      },
+      {
+        "instrument": "NATGAS_USD",
+        "total_return": -70.6,
+        "annual_return": -25.06,
+        "sharpe": -47.19,
+        "max_dd": -83.46,
+        "n_trades": 2352,
+        "win_rate": 96.2,
+        "n_long": 2493,
+        "n_short": 2177
+      },
+      {
+        "instrument": "NZD_USD",
+        "total_return": -14.79,
+        "annual_return": -3.67,
+        "sharpe": -40.609,
+        "max_dd": -18.36,
+        "n_trades": 2514,
+        "win_rate": 94.5,
+        "n_long": 2280,
+        "n_short": 2426
+      },
+      {
+        "instrument": "USD_CAD",
+        "total_return": -26.5,
+        "annual_return": -6.94,
+        "sharpe": -127.785,
+        "max_dd": -30.05,
+        "n_trades": 2439,
+        "win_rate": 93.8,
+        "n_long": 2313,
+        "n_short": 2411
+      },
+      {
+        "instrument": "USD_CHF",
+        "total_return": -8.21,
+        "annual_return": -1.98,
+        "sharpe": -31.325,
+        "max_dd": -17.58,
+        "n_trades": 2431,
+        "win_rate": 94.1,
+        "n_long": 2034,
+        "n_short": 2511
+      },
+      {
+        "instrument": "USD_TRY",
+        "total_return": 29.4,
+        "annual_return": 6.6,
+        "sharpe": 52.935,
+        "max_dd": -18.99,
+        "n_trades": 2435,
+        "win_rate": 70.2,
+        "n_long": 2602,
+        "n_short": 698
+      },
+      {
+        "instrument": "XAG_USD",
+        "total_return": -59.09,
+        "annual_return": -18.96,
+        "sharpe": -63.903,
+        "max_dd": -64.43,
+        "n_trades": 2419,
+        "win_rate": 93.6,
+        "n_long": 2484,
+        "n_short": 2008
+      },
+      {
+        "instrument": "XAU_USD",
+        "total_return": -30.65,
+        "annual_return": -8.25,
+        "sharpe": -55.602,
+        "max_dd": -36.45,
+        "n_trades": 2348,
+        "win_rate": 99.2,
+        "n_long": 2718,
+        "n_short": 1817
+      }
+    ],
+    "summary": {
+      "avg_sharpe": -50.182,
+      "avg_return": -7.84,
+      "avg_dd": -39.74,
+      "total_trades": 42322,
+      "avg_win_rate": 94.1,
+      "pass_count": 4
+    }
+  },
+  "ATR-Scaled MR": {
+    "results": [
+      {
+        "instrument": "AUD_JPY",
+        "total_return": -11.3,
+        "annual_return": -2.76,
+        "sharpe": -29.658,
+        "max_dd": -23.96,
+        "n_trades": 1693,
+        "win_rate": 130.9,
+        "n_long": 3301,
+        "n_short": 966
+      },
+      {
+        "instrument": "AUD_USD",
+        "total_return": 18.29,
+        "annual_return": 4.0,
+        "sharpe": 45.782,
+        "max_dd": -9.94,
+        "n_trades": 1718,
+        "win_rate": 137.5,
+        "n_long": 2692,
+        "n_short": 1882
+      },
+      {
+        "instrument": "BCO_USD",
+        "total_return": -32.95,
+        "annual_return": -8.96,
+        "sharpe": -27.22,
+        "max_dd": -52.44,
+        "n_trades": 1581,
+        "win_rate": 142.9,
+        "n_long": 2320,
+        "n_short": 2184
+      },
+      {
+        "instrument": "BTC_USD",
+        "total_return": -61.2,
+        "annual_return": -20.0,
+        "sharpe": -37.991,
+        "max_dd": -70.76,
+        "n_trades": 1538,
+        "win_rate": 156.3,
+        "n_long": 2334,
+        "n_short": 2384
+      },
+      {
+        "instrument": "ETH_USD",
+        "total_return": -38.03,
+        "annual_return": -10.57,
+        "sharpe": -15.544,
+        "max_dd": -84.44,
+        "n_trades": 1619,
+        "win_rate": 148.5,
+        "n_long": 3299,
+        "n_short": 1310
+      },
+      {
+        "instrument": "EUR_GBP",
+        "total_return": -2.71,
+        "annual_return": -0.64,
+        "sharpe": -11.803,
+        "max_dd": -11.97,
+        "n_trades": 1687,
+        "win_rate": 137.8,
+        "n_long": 1691,
+        "n_short": 2804
+      },
+      {
+        "instrument": "EUR_JPY",
+        "total_return": -23.7,
+        "annual_return": -6.12,
+        "sharpe": -83.102,
+        "max_dd": -27.92,
+        "n_trades": 1510,
+        "win_rate": 142.5,
+        "n_long": 2328,
+        "n_short": 1951
+      },
+      {
+        "instrument": "EUR_USD",
+        "total_return": -11.23,
+        "annual_return": -2.74,
+        "sharpe": -42.395,
+        "max_dd": -14.96,
+        "n_trades": 1717,
+        "win_rate": 139.7,
+        "n_long": 1770,
+        "n_short": 2953
+      },
+      {
+        "instrument": "GBP_JPY",
+        "total_return": -23.99,
+        "annual_return": -6.21,
+        "sharpe": -71.888,
+        "max_dd": -29.84,
+        "n_trades": 1660,
+        "win_rate": 133.4,
+        "n_long": 2311,
+        "n_short": 2162
+      },
+      {
+        "instrument": "GBP_USD",
+        "total_return": -23.12,
+        "annual_return": -5.95,
+        "sharpe": -81.357,
+        "max_dd": -25.14,
+        "n_trades": 1687,
+        "win_rate": 142.5,
+        "n_long": 2740,
+        "n_short": 2053
+      },
+      {
+        "instrument": "NAS100_USD",
+        "total_return": 11.4,
+        "annual_return": 5.25,
+        "sharpe": 28.855,
+        "max_dd": -23.98,
+        "n_trades": 720,
+        "win_rate": 146.7,
+        "n_long": 1597,
+        "n_short": 464
+      },
+      {
+        "instrument": "NATGAS_USD",
+        "total_return": -96.14,
+        "annual_return": -53.54,
+        "sharpe": -95.464,
+        "max_dd": -96.86,
+        "n_trades": 1433,
+        "win_rate": 162.7,
+        "n_long": 1624,
+        "n_short": 3274
+      },
+      {
+        "instrument": "NZD_USD",
+        "total_return": -13.97,
+        "annual_return": -3.45,
+        "sharpe": -38.012,
+        "max_dd": -20.72,
+        "n_trades": 1701,
+        "win_rate": 143.7,
+        "n_long": 2742,
+        "n_short": 2178
+      },
+      {
+        "instrument": "USD_CAD",
+        "total_return": -3.85,
+        "annual_return": -0.91,
+        "sharpe": -16.843,
+        "max_dd": -17.03,
+        "n_trades": 1668,
+        "win_rate": 136.8,
+        "n_long": 2668,
+        "n_short": 1993
+      },
+      {
+        "instrument": "USD_CHF",
+        "total_return": -20.97,
+        "annual_return": -5.35,
+        "sharpe": -80.361,
+        "max_dd": -26.27,
+        "n_trades": 1628,
+        "win_rate": 144.5,
+        "n_long": 2954,
+        "n_short": 1720
+      },
+      {
+        "instrument": "USD_TRY",
+        "total_return": -33.44,
+        "annual_return": -9.6,
+        "sharpe": -52.432,
+        "max_dd": -59.66,
+        "n_trades": 1326,
+        "win_rate": 90.3,
+        "n_long": 1662,
+        "n_short": 763
+      },
+      {
+        "instrument": "XAG_USD",
+        "total_return": -29.78,
+        "annual_return": -7.98,
+        "sharpe": -26.905,
+        "max_dd": -55.29,
+        "n_trades": 1570,
+        "win_rate": 140.1,
+        "n_long": 1992,
+        "n_short": 2328
+      },
+      {
+        "instrument": "XAU_USD",
+        "total_return": -28.56,
+        "annual_return": -7.6,
+        "sharpe": -51.745,
+        "max_dd": -35.7,
+        "n_trades": 1562,
+        "win_rate": 143.3,
+        "n_long": 2693,
+        "n_short": 1628
+      }
+    ],
+    "summary": {
+      "avg_sharpe": -38.227,
+      "avg_return": -23.63,
+      "avg_dd": -38.16,
+      "total_trades": 28018,
+      "avg_win_rate": 140.0,
+      "pass_count": 2
+    }
+  }
+}
