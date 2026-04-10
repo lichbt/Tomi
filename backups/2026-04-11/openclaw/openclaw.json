@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.9",
+    "lastTouchedAt": "2026-04-09T10:44:05.421Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-09T10:37:04.948Z",
+    "lastRunVersion": "2026.4.9",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      }
+    }
+  },
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "name": "tomi",
+        "workspace": "/Users/lich/.openclaw/workspace",
+        "agentDir": "/Users/lich/.openclaw/agents/main/agent",
+        "model": "9router/openclaw-combo"
+      },
+      {
+        "id": "alpha-hunter",
+        "name": "alpha-hunter",
+        "workspace": "/Users/lich/.openclaw/workspace-alpha-hunter",
+        "agentDir": "/Users/lich/.openclaw/agents/alpha-hunter/agent"
+      },
+      {
+        "id": "backtester",
+        "name": "backtester",
+        "workspace": "/Users/lich/.openclaw/workspace-backtester",
+        "agentDir": "/Users/lich/.openclaw/agents/backtester/agent",
+        "model": "openclaw-combo"
+      },
+      {
+        "id": "coder",
+        "name": "coder",
+        "workspace": "/Users/lich/.openclaw/workspace-coder",
+        "agentDir": "/Users/lich/.openclaw/agents/coder/agent",
+        "model": "openclaw-combo"
+      },
+      {
+        "id": "allocator",
+        "name": "allocator",
+        "workspace": "/Users/lich/.openclaw/workspace-allocator",
+        "agentDir": "/Users/lich/.openclaw/agents/allocator/agent",
+        "model": "openclaw-combo"
+      },
+      {
+        "id": "executioner",
+        "name": "executioner",
+        "workspace": "/Users/lich/.openclaw/workspace-executioner",
+        "agentDir": "/Users/lich/.openclaw/agents/executioner/agent",
+        "model": "openclaw-combo"
+      }
+    ],
+    "defaults": {
+      "contextTokens": 200000,
+      "maxConcurrent": 2,
+      "timeoutSeconds": 2400,
+      "workspace": "/Users/lich/.openclaw/workspace",
+      "model": {
+        "primary": "9router/openclaw-combo"
+      },
+      "models": {
+        "9router/openclaw-combo": {}
+      },
+      "compaction": {
+        "reserveTokensFloor": 40000,
+        "model": "9router/openclaw-combo"
+      }
+    }
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "ollama"
+      }
+    },
+    "exec": {
+      "security": "full",
+      "ask": "off"
+    }
+  },
+  "commands": {},
+  "session": {
+    "reset": {
+      "mode": "idle",
+      "idleMinutes": 60
+    },
+    "dmScope": "per-channel-peer"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "auto",
+    "controlUi": {
+      "allowInsecureAuth": false,
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": [SANITIZED_TOKEN]
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "duckduckgo": {
+        "enabled": true,
+        "config": {}
+      },
+      "openrouter": {
+        "enabled": true
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true
+          }
+        }
+      },
+      "ollama": {
+        "enabled": true
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "groups": {
+        "-1003838508140": {
+          "topics": {
+            "19": {
+              "systemPrompt": "You are the ALPHA-HUNTER agent. Use the workspace at /Users/lich/.openclaw/workspace-alpha-hunter. Focus on market research and finding alpha."
+            },
+            "21": {
+              "systemPrompt": "You are the EXECUTIONER agent. Use the workspace at /Users/lich/.openclaw/workspace-executioner. Focus on trade execution and deployment management."
+            },
+            "22": {
+              "systemPrompt": "You are the ALLOCATOR agent. Use the workspace at /Users/lich/.openclaw/workspace-allocator. Focus on portfolio weighting and risk management."
+            },
+            "39": {
+              "systemPrompt": "Act as the BACKTESTER agent. Use /Users/lich/.openclaw/workspace-backtester. You can also access anyther agent workspace to get neccessary data to complete your task"
+            },
+            "133": {
+              "systemPrompt": "You are the CODER agent. Use the workspace at /Users/lich/.openclaw/workspace-coder. Focus on programming and technical implementation."
+            }
+          }
+        },
+        "*": {
+          "requireMention": false
+        }
+      },
+      "execApprovals": {
+        "enabled": false
+      },
+      "accounts": {
+        "default": {
+          "botToken": "[TELEGRAM_BOT_TOKEN]",
+          "allowFrom": [
+            "5719279617"
+          ]
+        },
+        "coding_bot": {
+          "name": "groot",
+          "enabled": true,
+          "allowFrom": [
+            "5719279617"
+          ],
+          "botToken": "[TELEGRAM_BOT_TOKEN]"
+        }
+      }
+    }
+  },
+  "approvals": {
+    "exec": {
+      "enabled": false,
+      "mode": "targets",
+      "targets": [
+        {
+          "channel": "telegram",
+          "to": "5719279617"
+        }
+      ]
+    }
+  },
+  "bindings": [
+    {
+      "type": "route",
+      "agentId": "main",
+      "match": {
+        "channel": "telegram"
+      }
+    }
+  ],
+  "memory": {
+    "backend": "qmd",
+    "qmd": {
+      "includeDefaultMemory": true,
+      "update": {
+        "onBoot": true,
+        "interval": "10m"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "9router": {
+        "baseUrl": "http://localhost:20128/v1",
+        "api": "openai-completions",
+        "apiKey": "sk-1b54ebd4339e7b00-oodmse-53d9d03c",
+        "models": [
+          {
+            "id": "openclaw-combo",
+            "name": "openclaw-combo (Custom Provider)",
+            "contextWindow": 200000,
+            "maxTokens": 20000,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "reasoning": true
+          }
+        ]
+      }
+    }
+  }
+}
